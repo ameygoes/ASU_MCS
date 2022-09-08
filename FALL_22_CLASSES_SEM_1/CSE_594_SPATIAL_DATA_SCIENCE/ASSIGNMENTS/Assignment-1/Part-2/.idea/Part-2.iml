@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/log4j-1.2-api-2.17.1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/scala-collection-compat_2.12-2.1.1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/scala-library-2.12.10.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/scala-parser-combinators_2.12-1.1.2.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/scala-reflect-2.12.10.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/scala-xml_2.12-1.2.0.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/shapeless_2.12-2.3.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/shims-0.7.45.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/slf4j-api-1.7.30.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/slf4j-log4j12-1.7.30.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/snakeyaml-1.24.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/snappy-java-1.1.8.2.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-core_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-graphx_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-hive-thriftserver_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-hive_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-kubernetes_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-kvstore_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-launcher_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-mesos_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-mllib-local_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-mllib_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-network-common_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-network-shuffle_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-repl_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-sketch_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-sql_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-streaming_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-tags_2.12-3.0.3-tests.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-tags_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-unsafe_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spark-yarn_2.12-3.0.3.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spire-macros_2.12-0.17.0-M1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spire-platform_2.12-0.17.0-M1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spire-util_2.12-0.17.0-M1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/spire_2.12-0.17.0-M1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/stax-api-1.0-2.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/stax-api-1.0.1.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/stream-2.9.6.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/super-csv-2.2.0.jar!/" />
+    <content url="jar://$MODULE_DIR$/../../../../../../../../Spark/spark-3.0.3-bin-hadoop2.7/jars/velocity-1.5.jar!/" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

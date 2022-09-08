@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70c62b98-97e5-4106-8a60-763619191c4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/FALL_22_CLASSES_SEM_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-1/.idea/Part-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-1/Spatial-Operation/.idea/modules/Spatial-Operations-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-1/Spatial-Operation/.idea/modules/Spatial-Operations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-1/Spatial-Operation/data/output/ 0/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-1/Spatial-Operation/data/output/ 0/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-1/Spatial-Operation/data/output/ 0/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-1/Spatial-Operation/data/output/ 0/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../emptyFileForGit.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2EK6Z4II1kGAZLqIExNUuPqap2X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Amey/ASU/ASU_MCS/FALL_22_CLASSES_SEM_1/CSE_594_SPATIAL_DATA_SCIENCE/ASSIGNMENTS/Assignment-1/Part-2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70c62b98-97e5-4106-8a60-763619191c4b" name="Changes" comment="" />
+      <created>1662331983316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662331983316</updated>
+    </task>
+    <servers />
+  </component>
+</project>
