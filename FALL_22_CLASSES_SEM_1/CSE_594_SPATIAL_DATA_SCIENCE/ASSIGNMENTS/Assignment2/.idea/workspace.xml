@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9796e05e-7d51-4d2d-936b-9e46493c3c79" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignment2.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2_Instructions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tester.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/abandoned_vehicles.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/__MACOSX/._airbnb_Chicago 2015.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/__MACOSX/._airbnb_Chicago 2015.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/__MACOSX/._airbnb_Chicago 2015.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/__MACOSX/._airbnb_Chicago 2015.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/airbnb_Chicago 2015.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/airbnb_Chicago 2015.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/airbnb_Chicago 2015.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputs/airbnb/airbnb_Chicago 2015.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/query9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_postgis.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_postgis/lab_postgis_with_comments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_postgis/lab_postgis_with_comments.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F9mM4jXPtT96kBM66lvw9EKITJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9796e05e-7d51-4d2d-936b-9e46493c3c79" name="Changes" comment="" />
+      <created>1663912626294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663912626294</updated>
+    </task>
+    <servers />
+  </component>
+</project>

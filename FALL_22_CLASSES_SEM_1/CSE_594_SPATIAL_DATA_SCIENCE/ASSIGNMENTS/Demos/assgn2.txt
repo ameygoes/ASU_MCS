@@ -1,0 +1,53 @@
+#Task-2#
+cur = con.cursor()
+cur.execute("CREATE TABLE point_data(latitude real, longitude real)")
+f = open("inputs/abandoned_vehicles.csv")
+cur.copy_from(f, 'point_data', sep=",")
+con.commit()
+cur.execute("ALTER TABLE point_data ADD COLUMN geom geometry(Point, 4326);")
+con.commit()
+
+cur.execute("UPDATE point_data SET geom = ST_SetSRID(ST_MakePoint(longitude, latitude), 4326);")
+con.commit()
+
+#Task-3#
+cur.execute("SELECT count(point_data.geom) as within_counts FROM shape_data LEFT JOIN point_data ON ST_Within(point_data.geom, shape_data.geometry) GROUP BY shape_data.geometry ORDER BY within_counts ASC")
+res = cur.fetchall()
+print(res)
+
+write_output(res, "q3.txt")
+
+#Task-4#
+SELECT count(T1.geometry) as within_counts 
+FROM shape_data T1
+LEFT JOIN shape_data T2 
+ON ST_Intersects(T1.geometry, T2.geometry)
+GROUP BY T1.geometry 
+ORDER BY within_counts ASC
+
+#Task-5#
+'''WRONG OUTPUT'''
+# Select ST_HausdorffDistance(ST_GeomFromText('POINT(-87.61114223 41.82562417)',4326), shape_data.geometry) as hDist
+# FROM shape_data
+# ORDER BY hDist ASC;
+
+#Task-7#
+SELECT ST_Perimeter(ST_ConvexHull(shape_data.geometry)) as boundary_length
+FROM shape_data
+ORDER BY boundary_length
+
+#Task-8#
+SELECT ST_Area(geometry) as area
+FROM shape_data
+WHERE ST_geometrytype(geometry)='ST_Polygon'
+ORDER BY area ASC;
+
+#Task-9#
+SELECT ST_AsText(ST_ClosestPoint(ST_Envelope(shape_data.geometry), ST_GeomFromText('POINT(-87.61114223 41.82562417)',4326))) as minDist
+FROM shape_data
+ORDER BY minDist ASC;
+
+#Task-10#
+SELECT ST_Area(ST_Intersection(ST_GeomFromText('POLYGON((-87.69227959522789 41.85766547551493,-87.69227959522789 41.88908028505862,-87.63450859376373 41.88908028505862,-87.63450859376373 41.85766547551493,-87.69227959522789 41.85766547551493))', 4326), shape_data.geometry)) as shared_area
+FROM shape_data
+ORDER BY shared_area ASC;

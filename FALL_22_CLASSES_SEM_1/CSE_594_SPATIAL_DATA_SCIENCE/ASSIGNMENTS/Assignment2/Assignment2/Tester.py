@@ -9,9 +9,10 @@ from sqlalchemy import create_engine
 import Assignment2 as tasks
 
 # TO DELETE BEFORE SUBMITTING
-# passw = '12345'
-passw = os.environ.get("POSTGRES_PASS")
+passw = '12345'
+# passw = os.environ.get("POSTGRES_PASS")
 DATABASE_NAME = 'space_assignment2'
+
 
 # change the password to your postgres user password
 def getEngineConnectionString(user='postgres', password=passw, dbname='postgres'):
@@ -20,8 +21,8 @@ def getEngineConnectionString(user='postgres', password=passw, dbname='postgres'
 
 # change the password to your postgres user password
 def getOpenConnection(user='postgres', password=passw, dbname='postgres'):
-    return psycopg2.connect(database = dbname, user = user, host='localhost', password= password)
-    
+    return psycopg2.connect(database=dbname, user=user, host='localhost', password=password)
+
 
 def createDB(dbname='postgres'):
     """
@@ -47,7 +48,6 @@ def createDB(dbname='postgres'):
     con.close()
 
 
-
 if __name__ == '__main__':
     try:
         # Creating Database ddsassignment2
@@ -55,13 +55,13 @@ if __name__ == '__main__':
         createDB(DATABASE_NAME);
 
         print("Creating sqlalchemy engine")
-        engine = create_engine(getEngineConnectionString(dbname = DATABASE_NAME))
+        engine = create_engine(getEngineConnectionString(dbname=DATABASE_NAME))
         con = engine.connect()
 
         print("Creating postgis extension")
         try:
-            #cur = con.cursor()
-            con.execute("CREATE EXTENSION postgis;") # Add PostGIS extension
+            # cur = con.cursor()
+            con.execute("CREATE EXTENSION postgis;")  # Add PostGIS extension
         except:
             print("Unable to create postgis extension")
             pass
@@ -75,13 +75,19 @@ if __name__ == '__main__':
 
         # Getting psycopg2 connection to the database
         print("Getting psycopg2 connection to the created database")
-        con = getOpenConnection(dbname = DATABASE_NAME)
+        con = getOpenConnection(dbname=DATABASE_NAME)
+
+        cur = con.cursor()
+        cur.execute("Select ST_SRID(geometry) from shape_data limit 1")
+        results = cur.fetchall()
 
         print("Loading point data and running spatial queries")
         cur = con.cursor()
         cur.execute("drop table if exists point_data")
-        tasks.explore_spatial_sql(con, "inputs/abandoned_vehicles.csv", "outputs/query3.txt", "outputs/query4.txt", "outputs/query5.txt", "outputs/query6.txt", "outputs/query7.txt", "outputs/query8.txt", "outputs/query9.txt", "outputs/query10.txt")
-        
+        tasks.explore_spatial_sql(con, "inputs/abandoned_vehicles.csv", "outputs/query3.txt", "outputs/query4.txt",
+                                  "outputs/query5.txt", "outputs/query6.txt", "outputs/query7.txt",
+                                  "outputs/query8.txt", "outputs/query9.txt", "outputs/query10.txt")
+
         print("All queries successful")
 
         if con:
