@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: asm:asm:3.1:jar" level="project" />
@@ -30,7 +30,7 @@
     <orderEntry type="library" name="sbt: com.google.inject:guice:3.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.google.protobuf:protobuf-java:2.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.jamesmurty.utils:java-xmlbuilder:0.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.jcraft:jsch:0.1.54:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.jcraft:jsch:0.1.42:jar" level="project" />
     <orderEntry type="library" name="sbt: com.ning:compress-lzf:1.0.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.sun.jersey.contribs:jersey-guice:1.9:jar" level="project" />
     <orderEntry type="library" name="sbt: com.sun.jersey:jersey-client:1.9:jar" level="project" />
@@ -97,13 +97,13 @@
     <orderEntry type="library" name="sbt: org.apache.directory.api:api-util:1.0.0-M20:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.directory.server:apacheds-i18n:2.0.0-M15:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.directory.server:apacheds-kerberos-codec:2.0.0-M15:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-annotations:2.7.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-auth:2.7.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-common:2.7.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs:2.7.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-core:2.7.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-api:2.7.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-common:2.7.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-annotations:2.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-auth:2.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-common:2.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-hdfs:2.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-mapreduce-client-core:2.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-api:2.7.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.apache.hadoop:hadoop-yarn-common:2.7.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.hive:hive-storage-api:2.7.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.htrace:htrace-core:3.1.0-incubating:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.httpcomponents:httpclient:4.2.5:jar" level="project" />
@@ -164,10 +164,8 @@
     <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.12:3.6.6:jar" level="project" />
     <orderEntry type="library" name="sbt: org.locationtech.jts:jts-core:1.18.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.lz4:lz4-java:1.7.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.mortbay.jetty:jetty-sslengine:6.1.26:jar" level="project" />
     <orderEntry type="library" name="sbt: org.mortbay.jetty:jetty-util:6.1.26:jar" level="project" />
     <orderEntry type="library" name="sbt: org.mortbay.jetty:jetty:6.1.26:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.mortbay.jetty:servlet-api:2.5-20081211:jar" level="project" />
     <orderEntry type="library" name="sbt: org.objenesis:objenesis:2.5.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:RoaringBitmap:0.7.45:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:shims:0.7.45:jar" level="project" />

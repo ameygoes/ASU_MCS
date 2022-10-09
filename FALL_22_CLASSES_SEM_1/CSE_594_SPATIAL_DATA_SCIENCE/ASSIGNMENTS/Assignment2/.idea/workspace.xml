@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9796e05e-7d51-4d2d-936b-9e46493c3c79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/src/main/scala/Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demos/lab_postgis/lab_postgis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Demos/lab_postgis/lab_postgis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demos/lab_postgis/lab_postgis_with_comments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Demos/lab_postgis/lab_postgis_with_comments.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__com_jcraft_jsch_0_1_42_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/compareFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__com_jcraft_jsch_0_1_54_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_7_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_7_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_7_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_7_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_7_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_7_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_mortbay_jetty_jetty_sslengine_6_1_26_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/libraries/sbt__org_mortbay_jetty_servlet_api_2_5_20081211_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/modules/Spatial-UDF-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/modules/Spatial-UDF-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/modules/Spatial-UDF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/.idea/modules/Spatial-UDF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/src/main/scala/Entrance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-3/Spatial-UDF/src/main/scala/Entrance.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
