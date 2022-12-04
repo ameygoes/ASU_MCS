@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SDS Assignment</title>
+		<meta name="author" content="name">
+    <meta name="description" content="description here">
+		<meta name="keywords" content="keywords,here">
+		    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.smooth {transition: box-shadow 0.3s ease-in-out;}
+	::selection{background-color: blue}
+	</style>
+</head>
+<body class="bg-white font-sans leading-normal tracking-normal" style="background:url('static/bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+	<!--Nav-->
+	<div class = "navBar">
+		<nav class="flex items-center justify-between flex-wrap bg-black p-6">
+			<div class="flex items-center flex-shrink-0 text-white mr-6">
+			  <span class="font-semibold text-xl tracking-tight">Spatial Data Science Project</span>
+			</div>
+			<div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-white">
+			  <div class="text-sm lg:flex-grow">
+			  </div>
+			  <div class="flex-end">
+				<a href="/" class="inline-block text-sm px-4 py-2 leading-none text-white mt-4 lg:mt-0">Home</a>
+				<a href="/about" class="inline-block text-sm px-4 py-2 leading-none text-white mt-4 lg:mt-0">About Us</a>
+			  </div>
+			</div>
+		  </nav>
+	</div>
+
+	<!--slide in nav-->
+	<div id="header" class="bg-white fixed w-full z-10 top-0 hidden animated" style="opacity: .95;">
+		<div class="bg-white">
+			<div class="flex flex-wrap items-center content-center">
+				<div class="flex w-1/2 justify-start text-white font-extrabold">
+
+				</div>
+				<div class="flex w-1/2 justify-end content-center">
+
+				</div>
+			</div>
+
+		</div>
+		<!--Progress bar-->
+		<div id="progress" class="h-1 bg-white shadow" style="background:linear-gradient(to right, #276bf1 var(--scroll), transparent 0);"></div>
+    </div>
+
+
+	<!--Title-->
+	<div class="text-center pt-16 md:pt-32">
+
+		<!-- <h1 class="font-bold break-normal text-3xl md:text-5xl">Welcome to Ghostwind CSS</h1> -->
+	</div>
+
+
+	<!--Container-->
+	<div class="container max-w-5xl mx-auto -mt-32">
+
+		<div class="mx-0 sm:mx-6">
+
+			<div class="bg-transparent w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+
+			<main class="flex items-center justify-center text-md -mt-31">
+				<form action="{{ url_for('spatialTemporalRange') }}" method='POST' enctype='multipart/form-data'>
+					<div class="bg-white w-96 p-6 rounded shadow-sm">
+						<div class="flex items-center justify-center mb-0 pb-0">
+							<span class="h-20 w-full"> <b>Get Spatial Temporal Range</b> </span>
+						</div>
+
+						<div class="text-sm mt--20">
+							<label for="" class="text-gray-700">Minimum bound of Time</label>
+							<input type="text" name="timemin" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter timemin" required/>
+							<label for="" class="text-gray-700">Maximum bound of Time</label>
+							<input type="text" name="timemax" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter timemax" required/>
+
+							<label for="" class="text-gray-700">Minimum bound of Latitude</label>
+							<input type="text" name="latmin" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter latmin" required/>
+							<label for="" class="text-gray-700">Maximum bound of Latitude</label>
+							<input type="text" name="latmax" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter latmax" required/>
+
+							<label for="" class="text-gray-700">Minimum bound of Longitude</label>
+							<input type="text" name="lonmin" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter lonmin" required/>
+							<label for="" class="text-gray-700">Maximum bound of Longitude</label>
+							<input type="text" name="lonmax" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter lonmax" required/>
+
+							<button type="submit" class="bg-black w-full text-gray-100 py-2 rounded hover:bg-black-600 transition-colors">
+								GET Spatial Temporal Range
+						  </button>
+						</div>
+					</div>
+				</form>
+			</main>
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+	<footer class="bg-black -mt-7">
+		<div class="container mx-auto flex items-center px-2 py-8">
+			<div class="w-full mx-auto flex flex-wrap items-center justify-center space-x-10">
+				<span class="text-white space-x-2">Gaurav: &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/gauravhoskote/" class="fa fa-linkedin"></a> <a href="https://github.com/gauravhoskote" class="fa fa-github"></a></span>
+				<span class="text-white space-x-2">Amey: &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/amey-bhilegaonkar-942b70125/" class="fa fa-linkedin"></a> <a href="https://github.com/ameygoes" class="fa fa-github"></a></span>
+				<span class="text-white space-x-2">Ninad: &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ninad-nale-964004129" class="fa fa-linkedin"></a> <a href="https://github.com/ninadnale" class="fa fa-github"></a></span>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

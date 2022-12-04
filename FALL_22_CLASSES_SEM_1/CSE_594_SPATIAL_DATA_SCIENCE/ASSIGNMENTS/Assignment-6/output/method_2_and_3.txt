@@ -1,0 +1,11 @@
+
+Printed output for method 2:
+...............................
+
+torch.Size([4, 2, 32, 32]) torch.Size([4, 3, 32, 32]) torch.Size([4, 3, 32, 32]) torch.Size([4, 1, 32, 32])
+
+
+Printed output for method 3:
+...............................
+
+torch.Size([4, 22, 1, 32, 32]) torch.Size([4, 2, 1, 32, 32])

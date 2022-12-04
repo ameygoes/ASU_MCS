@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SDS Assignment</title>
+		<meta name="author" content="name">
+    <meta name="description" content="description here">
+		<meta name="keywords" content="keywords,here">
+		    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/> 
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-white font-sans leading-normal tracking-normal" style="background:url('static/bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+	<!--Nav-->
+	<div class = "navBar">
+		<nav class="flex items-center justify-between flex-wrap bg-black p-6">
+			<div class="flex items-center flex-shrink-0 text-white mr-6">
+			  <span class="font-semibold text-xl tracking-tight">Spatial Data Science Project</span>
+			</div>
+			<div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-white">
+			  <div class="text-sm lg:flex-grow">
+			  </div>
+			  <div class="flex-end">
+				<a href="/" class="inline-block text-sm px-4 py-2 leading-none text-white mt-4 lg:mt-0">Home</a>
+				<a href="/about" class="inline-block text-sm px-4 py-2 leading-none text-white mt-4 lg:mt-0">About Us</a>
+			  </div>
+			</div>
+		  </nav>
+	</div>
+
+
+	<!--Title-->
+	<div class="text-center pt-16 md:pt-32">
+
+		<!-- <h1 class="font-bold break-normal text-3xl md:text-5xl">Welcome to Ghostwind CSS</h1> -->
+	</div>
+
+	<div class="container max-w-5xl mx-auto -mt-32">
+		
+		<div class="mx-0 sm:mx-6">
+			
+			<div class="bg-transparent w-full p-8 md:p-24 text-xl md:text-2xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+			
+			<main class="flex items-center justify-center text-md mb-12">
+				<form action="{{ url_for('knn') }}" method='POST' enctype='multipart/form-data'>
+					<div class="bg-white w-96 p-6 rounded shadow-sm">
+						<div class="flex items-center justify-center mb-0 pb-0">
+							<span class="h-20"> <b>Get KNN Query</b> </span>
+						</div>
+						
+						<div class="text-sm mt--20 ">	
+							<label for="" class="text-gray-700">Trajectory ID</label>
+							<input type="text" name="trajectoryId" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter Trajectory ID" required/>
+							<label for="" class="text-gray-700">Value of K</label>
+							<input type="text" name="value-k" class="w-full py-2 bg-gray-50 text-gray-500 px-1 outline-none mb-4" placeholder="Enter Value of K" required/>
+							<button type="submit" class="bg-black w-full text-gray-100 py-2 rounded hover:bg-black-600 transition-colors">
+								GET KNN
+							  </button>
+						</div>
+					</div>
+				</form>
+			</main>
+			</div>	
+		</div>
+
+	</div>
+
+	<footer class="bg-black mt-1">
+		<div class="container mx-auto flex items-center mt-8 px-2 py-8">
+			<div class="w-full mx-auto flex flex-wrap items-center justify-center space-x-10">
+				<span class="text-white space-x-2">Gaurav: &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/gauravhoskote/" class="fa fa-linkedin"></a> <a href="https://github.com/gauravhoskote" class="fa fa-github"></a></span>
+				<span class="text-white space-x-2">Amey: &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/amey-bhilegaonkar-942b70125/" class="fa fa-linkedin"></a> <a href="https://github.com/ameygoes" class="fa fa-github"></a></span>
+				<span class="text-white space-x-2">Ninad: &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ninad-nale-964004129" class="fa fa-linkedin"></a> <a href="https://github.com/ninadnale" class="fa fa-github"></a></span>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

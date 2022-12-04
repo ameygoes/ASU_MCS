@@ -1,0 +1,8 @@
+.Maincontainer{
+background-image: url("static/bg.jpg");
+filter: blur(4px);
+}
+
+.red-1{
+color: red !important;
+}

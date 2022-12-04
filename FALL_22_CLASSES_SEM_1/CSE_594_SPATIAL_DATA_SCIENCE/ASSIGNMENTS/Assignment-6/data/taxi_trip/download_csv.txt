@@ -1,0 +1,5 @@
+Download the below file using your ASU email account:
+
+https://drive.google.com/file/d/178jWzkKs5DSzWO8_-rbvOL8oLeo_Z8Ae/view?usp=share_link
+
+Put the downloaded CSV file inside current directory. The file name should be 'yellow_tripdata_2009-01.csv'.

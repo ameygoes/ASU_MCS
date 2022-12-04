@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<script src="https://unpkg.com/deck.gl@^8.6.5/dist.min.js"></script>
+		<script src="https://unpkg.com/@deck.gl/carto@^8.6.5/dist.min.js"></script>
+		<script src="https://libs.cartocdn.com/mapbox-gl/v1.13.0/mapbox-gl.js"></script>
+		<link href="https://libs.cartocdn.com/mapbox-gl/v1.13.0/mapbox-gl.css" rel="stylesheet" />
+		<script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+        <!-- <script type= "text/javascript" src="/static/data.json"></script> -->
+
+		<style>
+			body { margin:0; padding:0; }
+			#map { position:absolute; top:0; bottom:0; width:100%; background-color: black;}
+		</style>
+	</head>
+	<body><div id='map'></div></body>
+	<script type="text/javascript">
+		const ANIMATION_SPEED = 50;
+		const INITIAL_PAUSE = 1;
+		const colors = {0: [253, 128, 93], 'others': [23, 184, 190]};
+
+		function getRandomInt(max) {
+		     return Math.floor(Math.random() * max);
+		}
+		const getColor = i => {
+			if (typeof i === 'undefined' || !(i in colors)) {i = 'others'};
+			return [getRandomInt(256)+1, getRandomInt(256)+1, getRandomInt(256)+1];
+		}
+        const viewstate = '{{vs}}';
+		new deck.DeckGL({
+			container: 'map',
+			mapStyle: deck.carto.BASEMAP.DARK_MATTER,
+			initialViewState: viewstate
+		});
+
+        
+        drawTrips(JSON.parse('{{data|tojson|safe}}'));
+
+		const setDropArea = (area) => {
+			area.ondragover = () => false;
+			area.ondrop = async event => {
+				event.preventDefault();
+				const promises = [];
+				for (const file of event.dataTransfer.files) {
+					if (file.name.split('.').pop() == 'json') {
+						promises.push(file.text());
+					}
+				}
+				const results = await Promise.all(promises);
+				drawTrips(results.map(JSON.parse).flat());
+				return false;
+			};
+		}
+		setDropArea(document.getElementById('map'));
+
+		function bbox(json) {
+			let points = [];
+			for (const e in json){
+				points = points.concat(json[e].locs);
+			}
+			const b = turf.bbox(turf.multiPoint(points))
+			return [[b[0], b[3]], [b[2], b[1]]];
+		}
+
+		function interval_timestamps(json) {
+			let timestamps = [];
+			for (const e in json){
+				timestamps = timestamps.concat(json[e].times);
+			}
+			return [Math.min(...timestamps), Math.max(...timestamps)]; 
+		}
+
+        function drawTrips(json) {
+			const interval = interval_timestamps(json);
+			interval[0] -= ANIMATION_SPEED * INITIAL_PAUSE;
+			const view = new deck.WebMercatorViewport({width: document.body.clientWidth, height: document.body.clientHeight});
+
+			deck.carto.setDefaultCredentials({
+				username: 'public',
+				apiKey: 'default_public',
+			});
+
+			const deckgl = new deck.DeckGL({
+				container: 'map',
+				mapStyle: deck.carto.BASEMAP.DARK_MATTER,
+				initialViewState: view.fitBounds(bbox(json)),
+				controller: true
+			});
+
+			const map = deckgl.getMapboxMap();
+			map.addControl(new mapboxgl.ScaleControl({
+				maxWidth: 160,
+				unit: 'metric'
+			}));
+
+			let time = 0;
+			const RATE_ANIMATION_FRAME = 100;
+			function animate() {
+				time = (time + ANIMATION_SPEED/RATE_ANIMATION_FRAME) % (interval[1] - interval[0]);
+				window.requestAnimationFrame(animate);
+			}
+
+			setInterval(() => {
+				deckgl.setProps({
+					layers: [
+						new deck.TripsLayer({
+							id: 'trips-layer',
+							data: json,
+							getPath: d => d.locs,
+							getTimestamps: d => d.times,
+							getColor: d => getColor(d.trajectory_id),
+							opacity: 0.8,
+							widthMinPixels: 3,
+							jointRounded: true,
+							capRounded: true,
+							trailLength: 500,
+                            //currentTime: time + 15,
+							currentTime: time + interval[0],
+							shadowEnabled: false
+						})
+					]
+				});
+			}, 50);
+
+			window.requestAnimationFrame(animate);
+		}
+	</script>
+</html>
