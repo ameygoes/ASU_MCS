@@ -1,0 +1,157 @@
+\documentclass{article}
+
+\usepackage{fancyhdr, extramarks, amsmath, amsthm, amsfonts, tikz, palatino, enumerate, mdframed, xspace}
+
+%
+% Basic Document Settings
+%
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1}
+
+\pagestyle{fancy}
+\chead{\hmwkClass\: \hmwkTitle}
+\rhead{\firstxmark}
+\lfoot{\lastxmark}
+\cfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\newcommand{\solution}[1]{
+    \hfill
+    \vspace{1mm}
+  \begin{mdframed}
+    \textbf{Solution:}
+      #1
+   \end{mdframed}
+ }
+
+% \newcommand{\solution}[1]{}
+
+%
+% Create Problem Sections
+%
+\newcommand{\enterProblemHeader}[1]{
+    \nobreak\extramarks{}{Problem \arabic{#1} continued on next page\ldots}\nobreak{}
+    \nobreak\extramarks{Problem \arabic{#1} (continued)}{Problem \arabic{#1} continued on next page\ldots}\nobreak{}
+}
+
+\newcommand{\exitProblemHeader}[1]{
+    \nobreak\extramarks{Problem \arabic{#1} (continued)}{Problem \arabic{#1} continued on next page\ldots}\nobreak{}
+    \stepcounter{#1}
+    \nobreak\extramarks{Problem \arabic{#1}}{}\nobreak{}
+}
+
+\setcounter{secnumdepth}{0}
+\newcounter{partCounter}
+\newcounter{homeworkProblemCounter}
+\setcounter{homeworkProblemCounter}{1}
+\nobreak\extramarks{Problem \arabic{homeworkProblemCounter}}{}\nobreak{}
+
+%
+% Homework Problem Environment
+%
+% This environment takes an optional argument. When given, it will adjust the
+% problem counter. This is useful for when the problems given for your
+% assignment aren't sequential. See the last 3 problems of this template for an
+% example.
+%
+\newenvironment{homeworkProblem}[1][-1]{
+    \ifnum#1>0
+        \setcounter{homeworkProblemCounter}{#1}
+    \fi
+    \section{Problem \arabic{homeworkProblemCounter}}
+    \setcounter{partCounter}{1}
+    \enterProblemHeader{homeworkProblemCounter}
+}{
+    \exitProblemHeader{homeworkProblemCounter}
+}
+
+\newcommand{\hmwkTitle}{Homework\ \#2 }
+\newcommand{\hmwkClass}{CSE 575}
+
+\title{
+  \textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+}
+
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+%
+% Various Helper Commands
+%
+
+% For partial derivatives
+\newcommand{\pderiv}[2]{\frac{\partial#1}{\partial #2}}
+
+% Bold letters for vectors
+\newcommand{\boldvec}[1]{\ensuremath{\mathbf{#1}}\xspace}
+\newcommand{\x}{\boldvec{x}}
+\newcommand{\w}{\boldvec{w}}
+
+
+\author{Your name}
+\date{Today}
+
+
+\begin{document}
+
+\maketitle
+
+
+\begin{homeworkProblem}
+\begin{enumerate}[a)]
+    \item \solution{
+    Your solution to sub-problem 1
+    }
+    \item Remaining sub-problems
+    
+\end{enumerate}
+\end{homeworkProblem}
+
+\begin{homeworkProblem}
+The remaining problems.
+
+Below are some examples for common equation formatting scenarios. Note the use of helper commands---you can also introduce new ones for your convenience.
+\begin{itemize}
+    \item Partial derivatives: $\pderiv{f}{x}$
+    \item Vectors: $\x = \begin{bmatrix}
+        1 \\ 2 \\ 3
+    \end{bmatrix}$
+    \item Matrices: $A = \begin{bmatrix}
+        1 & 2 & 3 \\
+        4 & 5 & 6
+    \end{bmatrix}$
+    \item Aligning equations with multiple lines: 
+        \begin{align*}
+            f(x) & = ax + b \\
+                 & = cx + d
+        \end{align*}
+    \item Centered equations:
+        \begin{gather*}
+            a = 1, \quad b = 2 \\
+            c = 3
+        \end{gather*}
+    \item Case statements:
+        \begin{equation*}
+            y = \begin{cases}
+                1 & \text{if $x>0$} \\
+                0 & \text{otherwise}
+            \end{cases}
+        \end{equation*}
+\end{itemize}
+\end{homeworkProblem}
+
+
+
+\end{document}
+
