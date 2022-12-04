@@ -1,0 +1,238 @@
+------------------------------------------------------------------------------------------------------------------
+Q) What is an information assurance policy (IA policy) regarding the management or use of the information assets of an organization?
+------------------------------------------------------------------------------------------------------------------
+	The definition of IA Policy is it is High level statements of goals of procedures for information assurance.
+	It defines what actions are required, and which are permitted. 
+	Its not mere guidelines.
+	These top level policies are often determined by management with significant input from IT personnel and represent 	corporate goals and principles.
+	These policies are distributed to those responsible for following the policies and/or implement the policy enforcement.
+	
+	Mechanisms for IA policy enforcement must be put in place. 
+	This is done because it is important to inform employees about the rules that affect what they do. 
+	The violator may be suspended or fired as a result of the offenses. 
+	The enforcement method could be process-oriented, like running an audit, or technical, like a firewall. 
+	The administration of information assets by diverse organizations—whether private, public, commercial, etc.—uses these policies and enforcement methods in a generic and widespread manner.
+
+------------------------------------------------------------------------------------------------------------------
+Q) If it is necessary to establish a new IA policy or make major changes of an existing IA policy, what is the process for accomplishing the task?
+------------------------------------------------------------------------------------------------------------------
+	Steps for defining IA Policy:
+		Step 1: Secure strong management support
+		Step 2: Gather key data
+			a. Relevant policies
+			b. Relevant statutes
+			c. Research on what other organizations are doing
+		Step 3: Define framework
+			a. Determine overall goal of policy statement
+			b. List areas to be covered
+			c. Start with basic essentials and add additional areas as required
+		Step 4: Structure effective review, approval, implementation, and enforcement procedures
+			a. Determine who need to coordinate and get them involved early
+			b. Know who are going to approve the policy	and ensure they understand why the organization needs the proposed IA policy
+			c. Cross reference with HR policies	Establishing IA Policies (cont.)
+		Step 5: Perform risk assessment/analysis or audit.
+		Step 6: Make sure each policy is written in same style as existing policies
+		Step 7: Create an incident management and disaster recovery plan.
+		Step 8: Provide system users with security awareness training.
+		Step 9: Be careful you regularly examine how well the systems are operating in accordance with the established policies.
+		
+------------------------------------------------------------------------------------------------------------------
+Q) What are the important information assurance (IA) challenges in using outsourcing in developing a large-scale information system involving processing, storage and transmitting confidential information? Explain why each of the IA challenges is important, and how you will deal with each of the IA challenge
+------------------------------------------------------------------------------------------------------------------
+	The following list of Significant Obstacles to Outsourcing in Development:
+		
+		1. Risk analysis and risk mitigation strategies are difficult for outsourcing development:
+			1. Importance: 
+				1. The process of systematically identifying resources, threats, and (possible) vulnerabilities in a system makes risk analysis and mitigation crucial. We would lose sensitive information if this was to be exploited or harmed.
+			2. How it should be dealt?
+				1. Participate in security communication and the user community
+				2. Consult with the authorities
+				3. More robust security measures
+		2. Lose control 
+			1. Importance: 
+				1. In a closely connected system, a single point of failure is more likely to exist. We also compromise by allowing the IA system to run carelessly, which could lead to data loss.
+			2. How it should be dealt? 
+				1. Do your best to decouple the system as much as you can.
+				2. To achieve loose coupling, adhere to the best procedures recommended by the industry.
+		3. Client and outsourcing provider may have conflicting security policies and procedures. 
+			1. Importance: 
+				1. Conflicting policies between the customer and a third party indicate that the system is vulnerable to errors and data breaches. For instance, if vendors for a corporation like Apple have policies that conflict, their next iphone designs may be impacted.
+			2. How it should be dealt?
+				1. Have third-party providers undergo security and background investigations.
+				2. Put in place more robust security measures
+				3. Sign NDAs
+		4. Risks to client’s intellectual property.
+			1. Importance:  
+				1. Theft or loss of intellectual property may result in a loss of business for a company.
+			2. How it should be dealt? : 
+				2. There must be a security strategy in place. The protection of clients' intellectual property will be ensured by effective access control mechanisms.
+
+		5. Outsourcing providers’ facilities and all personnel may not adhere to the client’s standards and laws regarding protection of data and intellectual property:
+			1. Importance: If rules and laws governing data protection are not followed, the organization may be subject to an inquiry and the possibility of criminal prosecution.
+			2. How it should be dealt?: Verify that the service providers adhere to the necessary standard laws. Set up a meeting to address this agenda if they don't, and if they're willing to adhere to the rules and regulations, make sure they sign a contract outlining these policies. This makes it effective since the client must adhere by the agreement they signed.
+			
+		6. Clients and outsourcing providers may not document all the activities in proper format and reviewed carefully.
+			1. Importance: This problem is crucial since failing to record all operations can harm the company in the event of an unexpected incident and result in financial loss.
+			
+			2. How it should be dealt:
+				1. To increase documentation's efficiency and accuracy.
+				2. Create a framework for version control
+				3. Stop wasting time looking for paperwork.
+				4. Make sure you include document location information in your audit checklist.
+
+------------------------------------------------------------------------------------------------------------------
+Q)  In online social networks, why is it difficult to manage user data and user-provided data? What can be done to help manage user data and user-provided data?
+ ------------------------------------------------------------------------------------------------------------------
+ 
+	1. Below are the two main reason because of which, it is difficult to manage user data and user-provided-data:
+	
+		1. Difficulties in User Management
+		2. Difficulties in Data Management
+		
+	1. Difficulties in User Management:
+		1. Social networks involve unpredictable sets of participants, including malicious users (hackers, private information collectors, phishers, or terrorists) 
+		2. Users’ memberships, roles and privileges are dynamically changed 
+		3. A user may have multiple identities for different social networks or communities.
+		4. Establishing trustworthiness among users in a social network is difficult
+		
+		What need to be done?: 
+			1. Proper digital identity management  
+			2. Watch for anonymous access  
+			3. Trust management  
+			4. Efficient user authentication and authorization  
+			5. Proper access control for dynamic user privileges 
+			6. Detection of malicious behaviors
+
+	2. Difficulties in Data Management:  
+		1. User-supplied data may violate laws or regulations  
+			1. Violent/sexual contents, copyright-protected contents  
+		
+		2. Quality of user-supplied data is difficult to control  
+			1. Anyone can publish his/her contents on social networks  
+			2. Rumors / gossips / incitements / false information
+		
+		3. Ownership of data is difficult to manage  
+			1. Contents can be downloaded and republished on other social networks without owner’s consent. 
+		4. Integrity of data is difficult to protect  
+			1. Contents can be downloaded and easily modified without owner’s consent.
+		
+		What need to be done?:
+			1. Efficient filtering for contents against laws or regulations  
+			2. Efficient data quality control 
+				1. A common way to control data quality in social networks is to use a reputation system. A user’s reputation is scored by other users’ feedbacks on the content he/she published. (e.g., seller rating system of eBay)
+			3. Proper protection for copyrights and intellectual properties (e.g., digital watermarking)  
+			4. Proper protection for data integrity (e.g., digitalsignature)
+
+
+------------------------------------------------------------------------------------------------------------------		
+Q) What disruptive events need to be included in the contingency and disaster recovery planning for an information system handling confidential information?
+------------------------------------------------------------------------------------------------------------------
+	1. Possible causes for a disruption:  
+		1. Equipment failure : The failure of a system holding sensitive data could end up being one of the most disruptive incidents because it would be hard to recover the data and continue operations. In order to prevent this failure, it is necessary to incorporate potential backup methods in the contingency and disaster recovery planning.
+		
+		2. Power outage : The alternative options for power outages, some of which may be backup generators, should be included in the contingency and recovery plans plan. Additionally, it is entirely conceivable for top management to request special access to power from power department authorities.
+		
+		3. Telecommunication network shutdown: The company's upper management should get in touch with the network administrators to ensure continuous network access. In the event of such failures, the firm should also send out a team to transfer the network to a different provider. Every business relies on its network, and if it fails, the entire business could cease to function.
+		
+		4. Software corruption: Because software corruption runs the risk of wiping out all previously completed core work, careful planning must be made to take timely backups of committed and modified programs.
+		
+		5. Various attacks: The dangers of different malware assaults, which could endanger the system by allowing unauthorized access or disabling security measures, should be specified properly in order to mitigate and prevent against them.
+		
+		6. Human errors : Humans are prone to making mistakes, and even the smallest error can bring down a whole infrastructure and system. Therefore, it is crucial to consider having a support crew to give backups and patches for faults brought on by people. Plans for contingencies and disaster recovery may involve things like assembling a knowledgeable support staff to manage such problems, making data backups, etc.
+		
+		7. Strike :  The organization experiences a severe human resource shortage as a result of strikes, which has a negative impact on sales and income.
+
+		8. Natural disasters: Systems disruption and failure can be brought on by natural disasters like earthquakes and tsunami waves. The entire infrastructure could fail, resulting in the loss of crucial data and information. Therefore, it is crucial to incorporate an information system that handles sensitive data in the contingency and disaster recovery planning. We can talk about things like backing up data internationally in several locations.
+
+------------------------------------------------------------------------------------------------------------------
+Q) What do you need to plan for disaster recovery for an information system handling confidential information?
+------------------------------------------------------------------------------------------------------------------
+	1. Disaster recovery planning  is steps and procedures which personnel in key positions must follow to recover critical information systems in case of a disaster causing loss of services of the systems.
+
+	2. Contingency and disaster recovery planning should be completed for invocation whenever a disruption to the system occurs
+	Following are the things we need to plan for disaster recovery for an information system handling confidential information.:
+	Measures of disruptive events  
+	Response procedures and continuity of operations  
+	Backup policies and processes, including off-site processing 
+	Plan for recovery actions after a disruptive event
+	Guidelines for determining critical workload  
+	Individual employees’ responsibilities in response to emergency situations 
+	Emergency destructive procedures
+	
+------------------------------------------------------------------------------------------------------------------
+Q) What are the purposes of the following IA related laws:
+------------------------------------------------------------------------------------------------------------------
+Q) 1. HIPPA:
+		PURPOSE: 
+		1. One of HIPAA's objectives is the introduction of numerous measures to cut red tape in the healthcare industry. HIPAA laws force healthcare businesses that comply to put new standards and procedures into place in order to increase the efficiency of the healthcare system. 
+		
+		2. The successful sharing of medical information between healthcare organizations and insurers was made possible by HIPAA's mandate that medical workers use code sets in addition to patient identifiers.
+		
+		3. This streamlined process improves patient interactions with the healthcare system by enabling the efficiency of eligibility verifications, billing, payments, and other healthcare operations. 
+		
+		4. In addition, HIPAA enforces group health insurance requirements, prohibits the interest on life insurance loans from being deducted from taxes, and places a cap on the amount that individuals can put into pre-tax medical savings accounts.
+
+	2. Economic Espionage Act
+		PURPOSE:
+		1. This act attempts to prevent trade secrets from being illegally shared with unintended users. 
+		2. The purpose of designing the economic espionage was to prevent abuse of information gained by an individual working in one company and covert being stolen or leaked to be employed by another. 
+		3. The statute makes the violators a federal criminal if they steal or improperly use a trade secret. 
+		4. This intends to derive independent economic value from not being publicly known to and not being readily usable through proper means by the public. 
+		5. This act increases the importance of the value of intellectual property in general.
+
+
+	3 The Freedom of Information Act.
+		1. The Freedom of Information Act (FOIA) was passed in order to allow the public access to agency records. 
+		2. Additionally, this Act established a process to make sure agencies follow the rules for making their records public. 
+		3. This law mandates that upon request, information and documents held by the federal government, a state, or another public authority must be fully or partially disclosed if they haven't already been made public or circulated. 
+		4. It helps in making the functions of U.S. government agencies more transparent to the public so that democracy is strengthened and people can identify flaws in working of government.
+
+	4. The USA PATRIOT Act was passed with the purpose of preventing and punishing acts of terrorism both domestically and abroad, improving the investigative capabilities of law enforcement, among other things such as
+
+		1. To intensify U.S. efforts to prevent, identify, and pursue criminal prosecution of international money laundering and terrorism financing
+		2. To give foreign jurisdictions, foreign financial institutions, and classes of international transactions or types of accounts that are vulnerable to criminal abuse special scrutiny
+		3. To mandate that all appropriate components of the financial services industry report potential money laundering
+		4. To intensify efforts to prevent use of the U.S. financial system as a means of illicit financial gain
+
+------------------------------------------------------------------------------------------------------------------
+Q) Identify three important risks, which may likely cause your group to successfully complete your group course project at the beginning of your group course project.
+------------------------------------------------------------------------------------------------------------------
+	My course project group number is 1.
+	A risk is a potential negative event that may affect the successful operations of a system.
+
+	Below are the three main risks we had:
+		a. Choosing the best machine learning algorithms for Provisioning and De-provisioning for Identity Management in Cloud Computing from Service Provider’s Perspective Using Blockchain and Machine Learning:
+			
+		b. Choosing the project's scope in accordance with the timeframe specified will prevent it from running over the time limit.
+		c. No prior knowledge of blockchain technology.
+		d. No standardized dataset for training the ML models.
+------------------------------------------------------------------------------------------------------------------	
+Q)  How did your group plan to mitigate each of these three important risks?
+------------------------------------------------------------------------------------------------------------------
+		1. Mitigation of Risk 1
+			1. We planned to determine which datasets are most suited to particular machine learning technique.
+			2. We planned to determine existing cloud services like AWS Fraud detection, Azure Active directory.
+			3. At the end of the day, the most effective machine learning algorithm should be selected. But every algorithm has a unique set of advantages and disadvantages. The choice of the best algorithm is a difficult problem that is not readily resolved. Instead of speculating about these algorithms, current research can tell us which algorithm is best for predicting crimes in the present world.
+		
+		2. Mitigation of Risk 2
+			We planned team meetings and brainstorming sesssions about the timeline and the scope. 
+			We had multiple revisions of the scope with professor and TA. 
+			Post having team meetings and discussions we came up with the ideal solution of timeline.
+		
+		3. Mitigation of Risk 3
+			To mitigate this one, we planned to look at variety of solutions, research papers available currently on our topic. Each one of us tried to come up with their solution and approach to the problem and then after brainstorming and   to and fro meetings, we listed out the pros and cons of each method given the timeframe, and then we decided to move ahead with the optimal solution.
+		
+		4. Mitigation of Risk 4
+			1. We were planned to determine which datasets are most suited to particular machine learning technique.
+			2. We were planned to determine existing cloud services like AWS Fraud detection, Azure Active directory.
+			3. To identify the exisitng services and solution to our problem was the difficult task. We went through alot of videos, research papers, exisitng work, documentations by service providers like Azure, AWS etc. We listed out 5-6 services and existing work that has been done so far, we listed out pros and cons of each and finalized two.
+			
+------------------------------------------------------------------------------------------------------------------
+Q)  Has any of these three important risks occurred during the performance of your group course project?  If yes, select any of the risks occurred, and state whether your group’s planned mitigation worked well for the selected risk? Explain how well your group’s mitigation plan worked.
+------------------------------------------------------------------------------------------------------------------
+	Yes, we actually faced all of the three risks mentioned above.
+	Let me tell you about the second risk, we faced this multiple times during initial discussions of the project, that our topic's focus was too broad, and we needed to do the project more on the specifics of the project.
+	We initially gave the project titled as - IAM in Cloud Services.
+	Which upon discussions with team was narrowed down further. We again recevied feedbacks from TA and professor, we brainstored and narrowed our scope down. 
+	We identified the problems, acted upon them in the given time frame and came to optimum solution.
+	

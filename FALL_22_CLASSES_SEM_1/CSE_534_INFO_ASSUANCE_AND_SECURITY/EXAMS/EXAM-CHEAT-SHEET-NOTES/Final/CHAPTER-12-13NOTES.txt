@@ -1,0 +1,253 @@
+------------------------------------------------------------------------------------------------------------------
+----------------------------------------  CHAPTER - 12 IA- POLICIES  ---------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+IA Policy:
+	High level statements of goals of procedures for information assurance:
+		1. Define what actions are required, and which are permitted
+		2. Not guidelines
+		3. Top level policies are often determined by management with significant input from IT personnel and represent 	corporate goals and principles
+		4.Important to distribute policies to those responsible for following the policies and/or implement the policy 	enforcemen
+		
+	What is Policy and enforcement mechanism:
+		1. Every IA policy statement should have an enforcement mechanism
+			a. Critical to make employees aware of policies affecting their actions, and their violations may result in reprimand, suspension, or dismissal
+			b. The fact that individual employees have been made aware of should be documented. Example, an employee signs a statement that the employee has attended a training session.
+	What is a Security Policy?
+		1. A security policy sets the context in which we can define a secure system. What is secure under a policy may not be secure under a different policy
+	
+	Properties / Special Features of IA Policy:
+		1. IA policies indicating the organization is aware of proper operations against:
+			1. Disregard for public laws, such as institutional violation of copyright laws, and violation of privacy 
+			laws
+			2. Negligence
+			3. Failure to use measures commonly found in other “like” organizations
+			4. Failure to exercise due diligence by computer professionals (computer malpractice)
+			5. Failure to enforce policies
+			
+	Steps for defining IA Policy:
+		Step 1: Secure strong management support
+		Step 2: Gather key data
+			a. Relevant policies
+			b. Relevant statutes
+			c. Research on what other organizations are doing
+		Step 3: Define framework
+			a. Determine overall goal of policy statement
+			b. List areas to be covered
+			c. Start with basic essentials and add additional areas as required
+		Step 4: Structure effective review, approval, implementation, and enforcement procedures
+			a. Determine who need to coordinate and get them involved early
+			b. Know who are going to approve the policy	and ensure they understand why the organization needs the proposed IA policy
+			c. Cross reference with HR policies	Establishing IA Policies (cont.)
+		Step 5: Perform risk assessment/analysis or audit.
+		Step 6: Make sure each policy is written in same style as existing policies
+	
+	Policy Areas:
+		1. Confidentiality Policies
+			a. Prevent unauthorized disclosure of information
+			b. Identify those states in which information leaks to those not authorized to receive it
+			c. Must handle dynamic changes of authorization, and hence it includes a temporal element
+		2. Integrity Policies
+			a. Identify authorized ways in which information may be altered and entities authorized to alter it.
+			b. Describe conditions and manner in which data can be altere
+		3. Administrative Security Policies
+			a. Typically exist before a system development process
+			b. Usually focus on responsibilities of all members within IA team, and have legal implications.
+			c. Access Control Policies
+			d. Decide who can access what information under what conditions
+			e. Authorize a group of users to perform a set of actions on a set of resources
+			f. Ensure “separation of duty” and “least privilege
+		4. Audit Trails and Logging Policies
+			a. Define rules on how the system behavior will be recorded
+			b. Audit trails are usually continuous record about routine activities
+			c. Logs are usually event-oriented record
+			d. Essential when something bad happened since these records will help staff know who/what caused the problem
+		5. Documentation Policies
+			a. Define rules about
+			b. What kinds of information should be documented?
+			c. Who can modify the documents?
+			d. Under what situations can some of the documents be disclosed? and to whom?
+			e. Important to ensure privacy and integrity of the	system
+			
+		6. Evidence Collection and Preservation
+			a. Define rules about computer incident investigation:
+			b. What information should be collected and how to collect it?
+			c. How to store collected information to best present it later in a court?
+			d. Computer forensics always conflict with personal privacy and the policies should clearly draw the line
+	
+		7. Information Security Policies
+			a. Set forth mechanisms by which information stored on organization’s information systems and utilized by organization’s employees is secured and protected
+			b. State rights and obligations of organization	to manage, protect, secure, and control various information that could be accessed through organization's information system
+		
+		8. Information Security Policies (cont.)
+			1. Help maintain data integrity and accuracy, and provide authorized individuals timely and reliable			access to needed data. Also ensure that unauthorized individuals are denied access to computing resources or other means to retrieve, modify or transfer information
+			2. Ensure organization to meet its record-keeping and reporting obligations as required by laws and	to comply with various statutes and policies protecting rights and privacy of individuals
+
+		9. Personnel Security Policies
+			a. Define rules to do background checking and screening before hiring
+			b. Make agreement with employees before they start working
+			c. Reduce risks of human errors, theft, fraud or misuse of facilities
+			d. Ensure that users are aware of information security threats and concerns, and are equipped to support oganization’s security policies in their normal work
+		
+		<IA POLICY EXAMPLE - PREPARE IT FROM INTERNET - FOR YOURSELF>
+		
+		
+------------------------------------------------------------------------------------------------------------------
+----------------------------------------  CHAPTER - 13 RISK MANAGEMENT  ------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
+1. What is Threat?
+	A threat is a potential occurrence that can have an undesirable	effect on the system assets or resources
+	
+2. What is Vulnerability?
+	A vulnerability is a weakness that makes a threat to possibly occur
+
+3. What is Risk?
+	a. A risk is a potential negative event that may affect the successful operations of a system
+	b. A risk is not necessarily an ongoing problem
+	
+4. Common threat Examples:
+	1. Human errors or failures
+	2. Compromises to intellectual property
+	3. Trespass
+	4. Information extortion
+	5. Sabotage or vandalism
+	6. Theft
+	7. Software attacks
+	8. Forces of nature
+	9. Deviations in quality of services
+	10. Hardware failures or errors
+	11. Software failures or errors
+	12.  Technological obsolescenc
+	
+5. Catagories of Vulnerabilities:
+	1. Probabilistic vulnerabilities
+		a. Caused by hardware failures, human actions and information problems in the operational environment
+	3. Algorithmic vulnerabilities
+		a. Caused by design and implementation errors introduced during system development, including both software and hardware
+		
+6. Cost Benefit Analysis:
+	1. Infeasible or sometimes impossible to implement an extremely secure	systems
+	2. Helps identify risks which will most	likely occur, and cause severe damages if occur
+	3.Acceptable risks: Some risks are always there (residual risk), but they are highly unlikely become problems, or they can 	easily be contained and solved if becoming problems.
+	4. Needed to allocate limited resources	to most needed area
+	
+7. Risk Analysis:
+	A process to systematically identify assets, threats, and (potential) vulnerabilities in a system, and to address:
+	a. Which threats present danger to your	assets?
+	b. Which threats represent the most danger to organizations’sensitive information?
+	c. How much would it cost to recover from attack?
+	d. Which threat requires greatest resources to prevent?
+	
+	Risk Rating = V*L*(1-P+U)
+	where
+	a. V: The value of the information asset
+	b. L: The likelihood of the occurrence of a vulnerability
+	c. P: The percentage of the risk mitigated by current controls
+	d. U: The uncertainty of current knowledge of the vulnerability
+	
+8. Risk Analysis Example:
+	Information asset A has one vulnerability
+		a. The value of A is 50
+		b. The likelihood of the vulnerability is 0.1
+		c. Has no control (not addressed in risk management)
+		d. Assumptions and data are estimated 90% accurate
+	
+	Information asset B has two vulnerabilities
+		a. The value of B is 100
+		b. The likelihood of vulnerabilities #2 and #3 are 0.5 and 0.1
+		c. Current control addresses 50% of the risk of	vulnerability and 0% of the risk of vulnerability.
+		d. Assumptions and data are estimated 80% accurate
+		
+9. Controls:
+	Countermeasures for vulnerabilities
+	1. Deterrent controls discourage violation and reduce likelihood of deliberate	attacks
+		a. Sanctions built into organizational policies, and punishments imposed by legislation.
+	2. Preventive controls stop attempts to exploit vulnerabilities
+			1. Segregation of duties, proper authorization, adequate documents, proper record keeping, physical controls
+	
+	3. Detective controls discover attacks and trigger preventive or corrective controls
+			1. Firewall logs, inventory counts, input edit checks, checksums, message digests, intrusion detection
+	4. Corrective controls reduce the effect of an attack
+			1. Virus quarantine, firewall rule reconfiguration
+		
+	5. Recovery controls restore lost computer resources or	capabilities from security violations
+			1. Business continuity planning, disaster recovery plans, backup
+
+10. Risk Management:
+	1. Preventing risks from becoming problems
+	How to deal with risks identified in risk analysis?
+		a. Old philosophy: risk avoidance
+			1. Do whatever you can to avoid risks
+		b. Current philosophy: risk management
+			1. Understand risks
+			2. Deal with them in cost-effective manner	
+		c. Choices for each risk
+			1. Risk acceptance: tolerate those risks with low impact or rare occurrence:
+				 Risk acceptance can be established after the organization has done the following:
+					a. Determine the level of each identified risk
+					b. Assess the probability of each type of potential attacks
+					c. Estimate potential damage from each type of attack
+					d. Perform cost-benefit analysis on reducing each type of risks
+					e. Evaluate controls using appropriate type
+					f. Decide that the particular function, service, information, or asset did not justify the cost for protection
+
+			2. Risk reduction (risk mitigation)
+				Mitigation: Attempting to reduce impact	caused by exploitation of vulnerability through planning and preparation
+					a. Incident Response Plan: Actions and organization takes during incidents (attacks)
+					b. Disaster Recovery Plan: Preparation for recovery if a disaster occurs; strategies to limit losses before and during disaster; stepwise instructions to regain normalcy
+					c. Business Continuity Plan: Steps to ensure continuation of overall business when the scale of a disaster 	exceeds the Disaster Recovery Plan’s ability to restore operations
+
+			3. Risk transfer (to another entity): let others handle the risk
+		d. Typically use a combination of acceptance, reduction, and transfer for different risk
+
+11. Risk Management Strategies:
+	1. When a vulnerability exists: Implement security controls to reduce likelihood of a vulnerability being exploited
+	2.When a vulnerability can be exploited: Apply layered protections, architectural designs, and administrative controls to minimize the risk or prevent occurrence.
+	3. When attacker’s cost is less than his potential gain: Apply protection techniques to increase attack’s cost.
+	4. When potential loss is substantial: Apply design principles, architectural designs, and technical and nontechnical protections to limit extent of attack, thereby reducing potential loss
+	
+12. Risk Management Process:
+	1. Step 1: System characterization
+		a. Input: hardware, software, system interfaces, system mission, people, data information
+		b. Output: system boundary, system functions, system and data criticality and sensitivity
+	2. Step 2: Threat identification
+		a. Input: attack history, data from intelligence agencies or mass media
+		b. Output: threat statement
+	3. Step 3: Vulnerability identification
+		a. Input: prior risk assessment reports, audit comments, security requirements, security test results
+		b. Output: list of potential vulnerabilities
+	4. Step 4: Control analysis
+		a. Input: current controls, planned controls
+		b. Output: evaluation results of current and planned controls
+
+	5. Step 5: Likelihood determination
+	a. Input: threat-source motivation, threat capacity, 
+	nature of vulnerability, current controls
+	b. Output: likelihood rating
+	6. Step 6: Impact analysis
+		a. Input: mission impact analysis, asset criticality assessment, data criticality and sensitivity
+		b. Output: impact rating
+	
+	7. Step 7: Risk determination
+		a. Input: likelihood of threat exploitation, magnitude of impact, adequacy of planned or current controls
+		b. Output: risks and associated risk levels
+	
+	8. Step 8: Control recommendations and improvements
+		b. Output: recommended controls and 
+		improvements
+
+	9. Step 9: Results documentation
+		b. Output: A set of documents, includingrisk identification, assessment, cost effective evaluation, suggested control	list.
+	A well documented risk management process at one phase, which is also the starting point for the analysis at the next phase
+
+	10. Step 10: System monitoring:
+		a. System and environment changed: 	Hardware expanded or upgraded, software updates, mission goal changed, etc.
+		b. Performance: How many possible attacks have been prevented by controls; any failures or unwanted outcome, etc.
+
+	Restart the whole process from Step 1 again:
+		a. Periodically as part of system maintenance procedure
+		b. When system configuration is changed, it may generate some new risks not covered during the last risk management process
+		c. When some controls fail to prevent the risk from turning into attacks
+
+
+

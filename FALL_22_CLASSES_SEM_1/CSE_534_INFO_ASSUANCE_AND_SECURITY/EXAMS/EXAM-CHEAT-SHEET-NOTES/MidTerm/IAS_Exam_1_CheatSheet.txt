@@ -1,0 +1,123 @@
+95 - file:///C:/Amey/ASU/ASU_MCS/FALL_22_CLASSES_SEM_1/CSE_534_INFO_ASSUANCE_AND_SECURITY/NOTES/Lecture_1_18_08_2022/First%20Exam_%20CSE%20543_%20Info%20Assurance%20&%20Security%20(2021%20Fall).pdf
+
+82 - file:///C:/Amey/ASU/ASU_MCS/FALL_22_CLASSES_SEM_1/CSE_534_INFO_ASSUANCE_AND_SECURITY/NOTES/Lecture_1_18_08_2022/IAS_mid.pdf
+
+
+What is Machine Learning?
+	1. Machine learning focuses on the use of relevant data and powerful 
+	algorithms to imitate humans to learn and improve the accuracy of the 
+	recognition process of applications.
+	2. Instead of being specifically programmed to do so, machine learning trains computers how to learn from data and get better with practice.
+
+Why does Machine Learning became useful?
+	1. Because Machine Learning uses historical data to forecast, anticipate, and combat threats in close to real-time. By examining at the traits and patterns of the threats that have already recorded, detected, and blocked, it may anticipate potential dangers. 
+	2. Network protection shifts from a responsive to a preventative state as a consequence of the network security becoming intelligent. Additionally, the fact that AI and ML algorithms are ever-evolving makes it challenging for attackers to defeat it.
+	3. ML can also detect a security attack which appears to be normal by learning from the data from past, as well as it has power to identify the suspicious logins, analyzing IP addresses and prevents the unauthorized access request from logging into the system.
+	4. In recent times, the data generated is huge, and ML can use techniques like, Face recognition, fingerprint authentication etc to secure the system from attacks.
+	5. Given all these reasons, Machine Learning is a useful resource in IAS.
+
+
+What is a formal Method?
+	1. Software and hardware systems are defined, developed, and verified using formal techniques, a type of rigorous mathematical technique.
+	2. In order to prevent security problems or at the very least identify them, formal approaches carefully define the requirements and analyze the information system.
+
+Why are formal methods important in IAS?
+	1. Clear Requirements and design and can clarify them
+	2. Identifies unexpected or missed assumptions
+	3. Able to detect defects
+	4. Able to recognize exceptional cases
+	5. Evaluation of test coverage is easy
+	6. Communcation and documentation of implicit assumptions can be done
+	
+Two examples where formal methods are useful in IAS?
+https://www.helpnetsecurity.com/2021/01/04/formal-methods-software-security/
+	1. Amazon Web Services employs FM to guarantee the security of its cryptographic systems. Cryptographic procedures are extensively designed for high performance, which makes it challenging to know with certainty whether the software follows its mathematical design. To ensure the two match, Amazon employs an FM technique called SAW, eliminating a potential source of crucial security flaws. Additionally, SAW keeps track of commits to cryptographic operations to prevent the introduction of defects. This demonstrates how FM can be skillfully used to create confidence at key system points.
+
+	2. Microsoft's Static Driver Verifier was one of the first modern FM innovations to be a success. Device driver flaws are obviously a security issue, thus Microsoft developed an FM tool that verifies that the driver interacts with the Windows kernel correctly. Since this tool is included with Visual Studio, every vendor could guarantee the security of their code. By enabling common developers to use the greatest levels of security, the Static Driver Verifier upped the bar for device drivers.
+	
+What is Situation-aware role-based access control model?
+	It is a type of access control that is based on the user's intention and purpose. The system admins provide privilages to objects, giveing rise to a situation specific access tos ervices. SAAC model incorporates situation awareness into RBAC.
+	
+What is the example of SARBA?
+	1. The best situational aware role-based implementation example is given during the project's live implementation. The administrator or project manager is granted full access to the server and configurations when a project is assigned to a banking business. The banking firm's staff will get in touch with the software handling business if apps fail unexpectedly during the live phase and they are unsure of what to do. Individuals might be aware of the issue or be able to fix it within the SLA time period if the program is managed effectively.
+	In that instance, the banking company's admin/project head must give them access to the server or storage so they may fix the issue and guarantee the application's smooth performance.
+	The previous example provides safe information system activities in accordance with situation-aware role-based access control because there is no other way to fix the problem and give the client the best banking user experience while the application is down.
+	So that the apps may run effectively, the application development business may be given access to the storage or server, depending on the situation.
+	
+What is IAS?
+	Information Assurance: encompasses the scientific, technical, and management disciplines required to ensure information security and quality.Security techniques as well as organisation, operation management, user awareness, 	policy, and legality, all play important roles.
+	
+Mission Assurance: is a life-cycle engineering process to identify and
+mitigate the deficiencies of mission requirements, design, production, test,
+and field support for mission success. The main objective of mission
+assurance is creating a state of resilience that supports the continuation of
+an entity's critical business processes and protects its employees, assets,
+services, and functions.
+
+
+What is Blockchain?
+	A sequence of blocks, in which each block consists of a header and body, and the blocks are linked by storing the previous block’s hash in the current block header
+	
+What are the properties of blockchain, each of which makes
+blockchain useful for improving information assurance and security of
+information systems? Explain why?
+https://weteachblockchain.org/courses/blockchain-101/01/properties-of-a-blockchain
+	Decentralization - Every piece of data in the blockchain is replicated on every machine running the blockchain's software. Instead of being processed by a central server, information is transferred and validated by nodes located at various points throughout the network. Every client must adhere to a strict set of criteria in order for the network to operate properly; if blocks are broadcast to the network but do not comply with the validity standards, the block will be rejected. The network of a blockchain is dispersed, enabling a fair, peer-based network that can self-verify.
+	How it helps IAS - Defending against distributed denial of service (DDoS) assaults is the decentralized ledger system. By enabling connections to local protection pools, its decentralized solutions defend by enhancing security and accelerating content. 
+	
+	◼ Immutability - The information stored on the blockchain cannot be altered or deleted after a block has been confirmed. Each block is stacked on top of the one before it. To be added to the chain, the following block needs to have the hash of the one before it. As a result, the blockchain is guaranteed to maintain its historical order, thereby rendering it tamper-proof.
+	
+	◼ High Fault Tolerance
+	
+	◼ High Availability
+	
+	◼ Transparency - Anyone with an internet connection can examine all transactions on a public blockchain, such as the Bitcoin blockchain. A transaction hash, or unique ID, is given to each transaction. These codes can be used to look up a transaction receipt, which is a public record of the transaction. The addresses involved, the amount transferred, a timestamp, transfer fees, and other information are all included in a transaction receipt. All transaction records are accessible from any computer connected to the network, guaranteeing a high level of transparency. Many organizations, especially nonprofits, can use blockchains to establish confidence in their financial operations because of the transparency they give.
+	
+	Auditability
+	
+	Security - Blockchains have two primary security mechanisms: network structure and cryptography. In blockchain technology, cryptography is used extensively to sign data in order to prove that a transaction was approved by the owner of the funds. The decentralized structure of network eliminates any central points of failure. To compromise an open blockchain network, a hacker would have to control a majority of the nodes at the same time. This makes a network attack very expensive and impractical.
+	How it is useful - Many companies use Blockchain to secure users’ metadata, and the user doesn’t have to use an authentication method to use the messenger. The metadata is randomly distributed throughout a ledger preventing it from being compromised.
+
+What type of blockchain is suitable to be used for developing
+trusted coordination in collaborative software development? Why?
+
+	When developing collaborative software utilizing smart contracts, trusted coordination is provided through a private blockchain. A blockchain serves as a representation of the entire collaborative software development process.
+	A distinct node on the blockchain represents each participating software development team. One team only is chosen to serve as the prime contractor team, which is in responsibility of negotiating and deciding on all of the participants' obligations in the software development project. Teams that are participating may be from different companies or from the same one as the principal contractor.
+	
+	
+Identify as many principles as possible to protect confidential information of an organization from unauthorized disclosure to any subject (inside or outside the organization).
+	Encryption: Any third party who obtains the data will not be able to read it thanks to the encryption.
+	
+	Two-factor authentication: By requiring two-factor authentication, you may improve data security and lessen the chance of data leaks. You can only access the information using two-factor authentication if you have both a material object (like a card) and an immaterial one (like a security code).
+	
+	Safeguard your keys: Access to the keys means access to the information, hence a safety measures should be taken to safeguard and presever keys to a secure location be it physical keys or sowtware keys.
+
+	Auditability: When a technology team conducts an organizational assessment to confirm that the correct and most recent procedures and infrastructure are being used, it results in an information security audit. A series of tests that are part of an audit ensure that information security satisfies all standards and specifications inside an organization. Employees are questioned about their security responsibilities and other pertinent information during this process.
+	
+	Access Control: Who is permitted to access and use firm information and resources is determined by access control, a key element of data security. Access control rules ensure users are who they claim to be and have authorized access to company data through authentication and authorization. Additionally, physical access to campuses, buildings, rooms, and datacenters can be restricted using access control.
+	
+	Confidentiality: Privacy and confidentiality are similar concepts. Protecting sensitive information from unwanted access is the goal of confidentiality measures. It is common practice to categorize data based on the extent and nature of the harm that may be caused if it got into the wrong hands. Then, based on those classifications, more or less strict controls can be put in place.
+	
+	 
+	Training and Awareness:  
+	Non-disclosure Agreements: Trade secrets and other sensitive information cannot be revealed without the consent of both parties, according to a confidentiality or non-disclosure agreement (NDA).
+	
+	Authentication: 
+	Secrecy: 
+	Comprehensive and Integrated Approach:
+	
+Three major strategies to protect critical objects?
+	1. Obscurity Strategy
+	2. Perimeter Defense Strategy
+	3. Defence in Depth Strategy
+
+
+Give an example to show how you can carry out a critical mission, which requires using an information system to achieve both mission assurance and information assurance successfully.
+	The requirements for mission assurance and information assurance when working on big, complicated projects are as follows.
+	
+	Requirements for Mission Assurance
+		to achieve a state of resilience that safeguards an entity's personnel, resources, services, and activities while enabling the continuation of its essential business processes.
+		Application of system engineering, risk management, quality, and management principles with discipline to successfully complete the phases of requirement analysis, design, development, testing, deployment, and operations
+	Norms for Information Assurance
+	Includes all the fields of science, technology, and administration needed to guarantee the integrity and quality of information.
+	Ensure the availability, integrity, authenticity, confidentiality, and nonrepudiation of information and information systems (computer systems and network, information, and operating environments).

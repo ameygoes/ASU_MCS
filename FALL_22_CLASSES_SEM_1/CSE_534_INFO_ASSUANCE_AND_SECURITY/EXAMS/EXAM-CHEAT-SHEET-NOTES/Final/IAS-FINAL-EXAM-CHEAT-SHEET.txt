@@ -1,0 +1,323 @@
+------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------  IAS  ------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------- QUESTION 1 -----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+1. 	What is the Patriot Act? What is its purpose? How does it impact other laws?
+
+	Patriot Act
+		U.S.A. Patriot Act: Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act of 2001 (Public Law 107-56), known as the USA PATRIOT Act or simply the Patriot Act. It was Signed on October 26, 2001. The Act modified a wide range of existing laws to expand the authority of U.S. law enforcement agencies for the stated purpose of fighting terrorism in the United States and abroad.
+	
+	PURPOSE
+		The USA PATRIOT Act aims to prevent, identify, and prosecute international money laundering and the financing of terrorism, as well as to improve law enforcement investigative tools. It also aims to deter and punish terrorist acts both domestically and abroad.
+	
+	It impacted other laws mentioned as below:
+		1. Immigration and Nationality Act of 1952: This legislation increases the US Attorney General's and Immigration and Naturalization Service's capacity for law enforcement and investigation (INS).
+		
+		2. Bank Secrecy Act of 1970 (BSA): Makes it simpler for law enforcement and regulatory organizations to monitor money laundering operations while making it more difficult for money launderers to operate.
+		
+		3. Foreign Intelligence Surveillance Act of 1978 (FISA): Enables government organizations to collect "foreign intelligence information" from both Americans and people from other countries.
+
+		4. Electronic Communications Privacy Act of 1986 (ECPA): Allows for the monitoring of emails and websites as well as other public network traffic.
+		
+		5. Money Laundering Control Act of 1986: Improve American efforts to stop, catch, and punish international money laundering and terrorism financing.
+
+
+2. What is HIPAA? What is its purpose?
+	
+	Definition:
+		Health Insurance Portability and Accountability Act (HIPAA): It Regulates collection, storage, and transmission of sensitive personal health care information. Protects the confidentiality and security of health-care data by 		establishing and enforcing standards and by standardizing electronic data interchange.
+		
+	PURPOSE
+		1. The introduction of many measures to reduce red tape in the healthcare sector is one of the goals of HIPAA. To improve the effectiveness of the healthcare system, HIPAA regulations compel compliant healthcare organizations to implement new standards and procedures. 
+		2. HIPAA's requirement that medical personnel employ code sets in addition to patient identifiers paved the door for the effective exchange of medical information between healthcare organizations and insurers.
+		3. The efficiency of eligibility verifications, billing, payments, and other healthcare operations are made possible by this streamlined procedure, which enhances patients' interactions with the healthcare system. 
+		4. HIPAA also enforces group health insurance requirements, bans the tax deduction of interest on life insurance loans, and limits the amount that people can contribute to pre-tax medical savings accounts.
+
+3.  What is the Freedom Information Act? What is its purpose?
+	Freedom of Information Act (FOIA)
+		1. Enables anybody to ask for access to any federal agency information or documents that aren't deemed to be a concern of national security.
+		2. Documents from the "reading room" must be electronically accessible by all government entities.
+	Purpose:
+		1.Thou shall not use a computer to harm other people.
+		2.Thou shall not interfere with other people's computer work.
+		3.Thou shall not snoop around in other people's files.
+		4.Thou shall not use a computer to steal.
+		5.Thou shall not use a computer to bear false witness.
+		6.Thou shall not use or copy commercial software for which you have not
+		paid.
+		7.Thou shall not use other people's computer resources without
+		authorization.
+		8.Thou shall not appropriate other people's intellectual output.
+		9.Thou shall think about the social consequences of the program you
+		write.
+		10.Thou shall use a computer in ways that show consideration and
+		respect
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------- QUESTION 2 -----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+1. The concept of outsourcing is quite broad. Give five different types of outsourcing in the three categories of IT field involving hardware systems, software systems, and smart devices.
+	Examples:
+		1. Hardware:
+			1. Apple as a company outsources its hardware components like displays from the company like Samsung.
+			2. Android phones are dependent for the chipsets from companies like intel and Qualcomm.
+			3. A company can outsource machine parts e.g. Cannon can outsource its motor parts from some company.
+			4. To reduce production costs, a personal computer manufacturer might purchase internal components for its machines from other businesses.
+			5. Outsourcing network infrastructure such as VPN services for your company.
+			
+		2. Software:
+			1. IT Company / Business outsourcing another company's team for the support of its software division. The third party team will on be rsponsible for resolving and suppporting the application.	
+			2. Bank that outsources its customer support functions. Here, a third party would handle any customer-facing questions or issues relating to its online banking service.
+			3. In order to save money compared to hiring an internal accountant, a small business may choose to outsource bookkeeping responsibilities to an accounting firm.
+			4. A law company may use a cloud computing service provider to store and back up its files, providing it access to digital technology without having to spend a lot of money purchasing it own.
+			5. Outsourcing of CRM services like Salesforce to manage your company's data
+			
+		3. Smart Devices:
+			1. A compnay outsourcing smart analytics platform.
+			2. Uber outsourcing sensor data elements for its cabs to track spatial features of its cabs.
+			3. Lighting and Home decor company outsourcing smart IOT devices from hardware manufactures.
+			4. Big players in Tech like Apple, google outsourcing Gyroscopes, or similar devices for its smart Watches.
+			5. Smart Vehicle start ups and comapnies like Tesla, outsourcing its smart devices and sensors from Manufacturing comapnies.
+
+2. 
+	1. Hardware:
+		https://www.investopedia.com/terms/o/outsourcing.asp
+		1. Apple as a company outsources its hardware components like displays from the company like Samsung:
+			Advantages:
+				1. Reduced labor costs, including staff pay.
+				2. Reduced overhead, equipment costs, and technology expenditures
+		2. Android phones are dependent for the chipsets from companies like intel and Qualcomm:
+				1. It helps companies like Google to scale back operations.
+				2. Another advantage is it helps to concentrate on their core competencies, and offload less important tasks to other companies.
+		
+	2. Software:
+		1. IT Company / Business outsourcing another company's team for the support of its software division. The third party team will on be rsponsible for resolving and suppporting the application:
+			1. By outsourcing support from another company, businesses not only saved on cost but time as well.
+			2. Another advantage is reduced management and technological costs.
+		2.  Bank that outsources its customer support functions. Here, a third party would handle any customer-facing questions or issues relating to its online banking service:
+			1. Outsourcing employess to support customer facing quetions from third party, bank not only did manage to transfer less crucial work to other them but also saved up the time to focus on the most important work that they have.
+			2. It benefits businesses to reduce operations.
+	3. Smart Devices:
+		1. A compnay outsourcing smart analytics platform.
+			1. 
+			2. 
+		2. 
+
+3.  Software:
+	Inexperienced Staff:
+		Risk : The possibility of having unskilled people manage your IT is one of the hazards associated with outsourcing IT services. Every member of the team can be interviewed and given references when you employ an internal IT team, but this is only useful if you have the expertise to be able to confirm the experience of new hires.
+		Unskilled staff is a security concern as any of sensetive information can get leaked through them.
+		
+		Remedy: Verifying the competence and experience of the outsourced IT company as a whole. 
+				Read internet reviews, make calls to references, and look for case studies.
+				Educate them on the security policies that are defined by the company.
+	
+	Hardware:
+	Risk: Hardware design can get leaked before the launch of your products. Given Apple's example, its new iphones designs can get leaked by the thrid party vendors if outsourcing is done via third party. Its a great security concern.
+	
+	Risk: To mitigate this, the company should defined adn regulate the strict policies.
+	Company should have security checks of the employees working in the third party organizations and make them sign NDAs.
+	
+	Smart Devices:
+	Risk: Considering the Tesla's example for outsourcing smart devices and sensors from third party, if the devices are adhired to security policies, the valuable customer data which is PII data can get leaked and be prone to hacking attacks.
+	
+	Remedy: To mitigate this, the company shall adhir to the stric security policies, and if anything like that happens, the team should be ready to send security patches to the devices to mitigate the loss of data.
+	
+	
+
+	
+		
+Useful Link - https://www.investopedia.com/terms/o/outsourcing.asp
+
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------- QUESTION 3 -----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
+1. What is an Information assurance policy (IA policy)? Why are IA policies very important to an organization which is information-intensive in the organization’s business?
+	IA Policy:
+	High level statements of goals of procedures for information assurance:
+		1. Define what actions are required, and which are permitted
+		2. Not guidelines
+		3. Top level policies are often determined by management with significant input from IT personnel and represent 	corporate goals and principles
+		4.Important to distribute policies to those responsible for following the policies and/or implement the policy 	enforcemen
+	Importance:	
+		1. IA Policies ensure that controls are implemented properly.
+		2. They help configure the control mechanisms as you see fit (e.g., firewall, and IDS)
+		3. Aide in product choice (e.g., laptops not permitted)
+		4. Show management your support.
+		5. Employers can obtain a greater level of security than with IA policies by clearly defining appropriate behavior for them.
+		6. Limit the company's and the management's liabilities
+		
+
+2. What process would you use to establish a new IA policy to add the feature in the existing IA policy in the confidentiality area which needs to protect certain specific information to be accessed with dynamic changes of authority?
+	Steps to Define IA Policy:
+		Step 1: Ensure solid management backing
+		Step 2: Gather key data
+			a. Relevant policies
+			b. Relevant statutes
+			c. Research on what other organizations are doing
+		Step 3: Define framework
+			a. Determine the policy statement's ultimate objective.
+			b. List areas to be covered
+			c. Start with basic essentials and add additional areas as required
+		Step 4: Establish efficient procedures for evaluation, approval, implementation, and enforcement.
+			a. Determine who need to coordinate and get them involved early
+			b. Know who are going to approve the policy	and ensure they understand why the organization needs the proposed IA policy
+			c. Cross reference with HR policies
+		Step 5: Perform risk assessment/analysis or audit.
+		Step 6: Make sure each policy is written in the same manner as the ones that already exist.
+
+
+3. Use the process you provided in part (b), add the feature to the existing IA policy in the confidentiality area to access the specific information items X and Y with the two different ways D1 and D2 of dynamic changes of authorization, respectively
+
+		1. Secure strong management support and discuss about the IA policy to be added.
+		3. Gather key data.
+		4. Relevant policies.
+		5. Relevant statutes.
+		6. Research on what other organizations are doing.
+		7. Define framework
+		8. Determine overall goal of policy statement
+		9. Define policy such way that, it should prevent unauthorized disclosure of information to items X and Y.
+		10. Identify those states in which information leaks to those not authorized to receive it, and only authorized personals are allowed to access specific information items X and Y.
+		11. It must handle dynamic changes of authorization in D1 and D2, by including a temporal element.
+		9. List areas to be covered
+		10. Start with basic essentials and add additional areas as required.
+		11. Structure effective review, approval, implementation, and enforcement procedures
+		11. Determine who need to coordinate and get them involved early 
+		12. Know who are going to approve the policyand ensure they understand why the organization needs the proposed IA policy Cross reference with HR policies
+		12. Perform risk assessment/analysis or audit.
+		13. Make sure each policy is written n same style as existing policies.
+		
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------- QUESTION 4 -----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Q1. What is risk management in operating an information system handling confidential information? When should risk management be conducted?
+	A risk is a potential negative event that may affect the successful operations of a system, and a risk management is Preventing risks from becoming problems. Old philosophy says risk avoidance is the way to go, which means, do whatever you can to avoid risks. According to current philosophy, risk management is understanding risks and deal with them in cost-effective manner.
+	
+	1. When a vulnerability exists, Implementing security controls to reduce likelihood of a vulnerability being exploited
+	2. When a vulnerability can be exploited, Applying layered protections, architectural designs, and administrative controls to minimize the risk or prevent occurrence.
+	3. When attacker’s cost is less than his potential gain, Applying protection techniques to increase attack’s cost.
+	4. When potential loss is substantial, Applying design principles, architectural designs, and technical and nontechnical protections to limit extent of attack, thereby reducing potential loss
+
+Q2. How should risk management be properly conducted?
+	1. Step 1: System characterization
+		a. Input: hardware, software, system interfaces, system mission, people, data information
+		b. Output: system boundary, system functions, system and data criticality and sensitivity
+	2. Step 2: Threat identification
+		a. Input: attack history, data from intelligence agencies or mass media
+		b. Output: threat statement
+	3. Step 3: Vulnerability identification
+		a. Input: prior risk assessment reports, audit comments, security requirements, security test results
+		b. Output: list of potential vulnerabilities
+	4. Step 4: Control analysis
+		a. Input: current controls, planned controls
+		b. Output: evaluation results of current and planned controls
+
+	5. Step 5: Likelihood determination
+	a. Input: threat-source motivation, threat capacity, 
+	nature of vulnerability, current controls
+	b. Output: likelihood rating
+	6. Step 6: Impact analysis
+		a. Input: mission impact analysis, asset criticality assessment, data criticality and sensitivity
+		b. Output: impact rating
+	
+	7. Step 7: Risk determination
+		a. Input: likelihood of threat exploitation, magnitude of impact, adequacy of planned or current controls
+		b. Output: risks and associated risk levels
+	
+	8. Step 8: Control recommendations and improvements
+		b. Output: recommended controls and 
+		improvements
+
+	9. Step 9: Results documentation
+		b. Output: A set of documents, includingrisk identification, assessment, cost effective evaluation, suggested control	list.
+	A well documented risk management process at one phase, which is also the starting point for the analysis at the next phase
+
+	10. Step 10: System monitoring:
+		a. System and environment changed: 	Hardware expanded or upgraded, software updates, mission goal changed, etc.
+		b. Performance: How many possible attacks have been prevented by controls; any failures or unwanted outcome, etc.
+
+	Restart the whole process from Step 1 again:
+		a. Periodically as part of system maintenance procedure
+		b. When system configuration is changed, it may generate some new risks not covered during the last risk management process
+		c. When some controls fail to prevent the risk from turning into attacks
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------- QUESTION 5 -----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Q1. or your group course project, identify five major risks your group had at the beginning of the project? [Mention your course project group number at the beginning of the answer of this question]
+
+	My course project group number is 1.
+	A risk is a potential negative event that may affect the successful operations of a system.
+
+	Below are the five main risks we had:
+		a. Choosing the best machine learning algorithms for Provisioning and De-provisioning for Identity Management in Cloud Computing from Service Provider’s Perspective Using Blockchain and Machine Learning.
+		b. Choosing the project's scope in accordance with the timeframe specified will prevent it from running over the time limit.
+		b. Coming up with optimal theoretical solution.
+		c. Current applications of Provisioning and De-provisioning for Identity Management in Cloud Computing from Service Provider’s Perspective Using Blockchain and Machine Learning.
+		d. Identifying major data sources and existing fraud detection serives and models.
+		e. Understanding the Provisioning and De-provisioning techniques for Identity Management in Cloud Computing.
+
+Q2. What are the outcome of each of the five major risks you identified in part (a), and how did your group handle each of these major risks?
+	1. 
+		1. We were able to determine which datasets are most suited to particular machine learning technique.
+		2. We were able to determine existing cloud services like AWS Fraud detection, Azure Active directory.
+		3. At the end of the day, the most effective machine learning algorithm should be selected. But every algorithm has a unique set of advantages and disadvantages. The choice of the best algorithm is a difficult problem that is not readily resolved. Instead of speculating about these algorithms, current research can tell us which algorithm is best for predicting crimes in the present world.
+	2. We had team meetings and brainstormed about the timeline and the scope. We had multiple revisions of the scope with professor and TA. Post having team meetings and discussions we came up with the ideal solution of timeline.
+	
+	3. To mitigate this one, we looked at variety of solutions, research papers available currently on our topic. Each one of us came up with their solution and approach to the problem and then after brainstorming and have meetings with to and fro we listed out the pros and cons of each method given the timeframe, and then we decided to move ahead with the optimal solution.
+
+	4. To identify the exisitng services and solution to our problem was the difficult task. We went through alot of videos, research papers, exisitng work, documentations by service providers like Azure, AWS etc. We listed out 5-6 services and existing work that has been done so far, we listed out pros and cons of each and finalized two.
+	
+	5. The finest theoretical solution was agreed upon. Each program has a unique set of problems. The AWS Fraud detection, Azure Active Directory, Blockchain smart contracts for provisioning and deprovisioning were the most effective methods in our case. We went through the multiple rounds of discussions and understanding sessions over these techniques, understood the strengths and weaknesses of each of those. 
+	
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------- QUESTION 6 -----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Machine Learning became useful because of the following reasons:
+	Because of machine learning, the field of software security has grown significantly in recent years. Machine learning assists in the discovery of abnormalities by using powerful ML algorithms. 
+	This makes it easier to identify problems and malicious attacks. 
+	The program regularly picks up new skills from previously collected data and finds patterns that are comparable. 
+	Because of this, machine learning is more effective and preventive.
+	
+	The study of "learning" processes, or processes that use data to improve performance on a set of tasks, is the emphasis of the field of machine learning. The following systems, which take advantage of machine learning's capabilities, can be used to secure sensitive data:
+	detection of intrusions In order to compromise secure data from the electric utility center, service providers, renewable energy resources, and other sources, hackers take use of the smart grid communication network's flaws.
+	
+	As a result, the overall system's data security may be compromised. Continuous monitoring and data analysis are required in order to develop these kinds of systems that can identify aberrant activity. Only with the aid of various deep learning and machine learning algorithms is this achievable. Therefore, using machine learning to handle sensitive data is essential in modern times.
+	
+	
+6.b ) 
+In order to continue the debate from the previous question, we can give an example in which the information system under consideration produces data that is extremely irregular in nature. As a result, ML models are unable to identify unusual activity and indicate unwanted intrusions committed by malevolent users. Additionally, if the system's data decreases the machine learning model's accuracy and leads to an excessive number of false positives and false negatives, it is completely useless for handling or safeguarding sensitive data.
+
+
+6.c)
+
+		1. Obscurity Strategy:
+			1. If the existence of an organization’s IA baseline and critical objects are  unknown, the organization might avoid or reduce threats
+			2. Intent to secure the system by hiding the details of security mechanisms
+			3. IA involves use of obscurity strategy to a variety of extent
+			- It is the method of securing the system by making the existence of baseline and critical objects not visible to outsiders. It involves hiding the details of security mechanisms.
+			- An example can be as simple as obfuscating the variable names in your script so that attacker can't interpret what can be used to compromise the security.
+			
+		2. Perimeter Defense Strategy:
+			1. Focus on threats from outsiders
+			2. Intent to control flow of information between organization’s internal trusted network and untrusted external networks
+			3. Not much IA capabilities is allocated to secure internal system
+			4. This strategy focuses on the threats from outside the system. One way to implement this is controlling the flow of information to and from the organization with respect to trusted and untrusted networks.
+			4. Best example for this is firewall. If a malicious bug or threat is imposed from outside, the firewalls can filter it out and make sure the system is guarded.
+		3. Defense in Depth Strategy:
+			- This strategy involves incorporating different inter-operable and complementary layers of defense into the system.
+			- The network in an organization is separated into various enclaves, which an environment under the control of a single authority with personnel and physical security measures.
+			- Layers in DoD are:
+			- Layer 1 - IA Policies
+			- Layer 2 - IA Management
+			- Layer 3 - IA Architecture
+			- Layer 4 - Operational security administration 
+			- Layer 5 - Configuration management 
+			- Layer 6 - Life-cycle security 
+			- Layer 7 - Contingency planning 
+			- Layer 8 - IA education, training, awareness 
+			- Layer 9 - IA policy Compliance Oversight 
+			- Layer 10 -  IA incident response and reporting

@@ -1,0 +1,718 @@
+FORMAL METHODS
+Q1 - 
+	(a) (3%) What is the objective of applying formal methods in information assurance and security?
+
+	Formal methods, when applied in information assurance and security help in more precisely determine the requirements, and analyze the information system. This is done in order to prevent or at least identify the security incidents.
+
+	Formal methods have 3 steps which are System Specification, Requirement Specification and validation. System specification includes the abstraction and modeling for a system with a well-defined syntactic and semantic structure. Requirement specification includes security modeling by using models like BLP model in order to represent the security requirements unambiguously. Validation includes validating the system formally as per the requirements specified in requirement specification.
+
+	(b) (6%) What are the advantages and challenges of applying formal methods in IA and security?
+	Advantages:
+	- Clarifies the system requirements and design 
+	- Clearly mentions the implicit assumptions 
+	- Identifies undocumented or unexpected assumptions 
+	- Expose defects 
+	- Identify exceptions 
+	- Evaluate test coverage
+
+	Challenges:
+	- The developer working on formal methods requires sound mathematical knowledge 
+	- It is possible that we need to use different formal specifications methods to represent different aspects of design. 
+	- Formal methods are useful for consistency checks, but it cannot guarantee the completeness of specification.
+
+	RISK
+	Q2 
+	(a) (2%) What are the goals of risk management in an information system handling critical information?
+										
+	The ultimate goal of risk management is the preservation of the physical and human assets of the organization for the successful continuation of its operations.			
+					
+	Preventing risks from becoming problems
+	How to deal with risks identified in risk analysis?
+	Old philosophy: risk avoidance
+	Do whatever you can to avoid risks
+	Current philosophy: risk management
+	Understand risks
+	Deal with them in a cost-effective manner
+	Choices for each risk
+	Risk acceptance: tolerate those risks with low impact or rare occurrence			Risk reduction (risk mitigation)
+	Risk transfer (to another entity): let others handle the risk
+	Typically use a combination of acceptance, reduction, and transfer for different risks		
+		 
+	(b) (4%) When will you conduct risk management on an information system handling critical information?
+
+	Businesses should perform a risk assessment before introducing new processes or activities, before introducing changes to existing processes or activities (such as changing machinery), or when the company identifies a new hazard.
+	Periodically…
+	Explore the vulnerabilities and ways to mitigate it
+
+
+	(c)  (10%) What do you need to take into serious consideration in risk management of an information system handling highly sensitive information?
+	Risk acceptance can be established after the organization has done the following:
+	Determine the level of each identified risk
+	Assess the probability of each type of potential attacks
+	Estimate potential damage from each type of attack
+	Perform cost-benefit analysis on reducing each type of risks
+	Evaluate controls using the appropriate type
+	Decide that the particular function, service, information, or asset did not justify the cost of protection
+
+	Mitigation: 
+	Attempting to reduce the impact caused by the exploitation of a vulnerability through planning and preparation
+	Incident Response Plan: Actions and organization takes during incidents (attacks)
+	Disaster Recovery Plan: Preparation for recovery if a disaster occurs; strategies to limit losses before and during a disaster, stepwise instructions to regain normalcy
+
+OUTSOURCING
+Q3
+(a) (2%) What is outsourcing?  Why it is important in information technology?
+
+An act of delegating or transferring some or all the business process and services to external providers.
+
+External providers will develop, manage and/or administer these services according to the contractual agreements on deliverables and QoS. 
+
+Open source software is the product of outsourcing when it comes to the software industry. It has helped the IT industry to grow by providing the users free of cost software to work on and use for their benefits. Some companies that use the OSS are Apache HTTP server GNOME, GNU compiler collection, KDE, Mozilla.
+
+(b) (6%) What IA challenges do you need to take into consideration when you use outsourcing in information technology?
+
+Risk analysis and mitigation of risk is difficult
+No control over the outsourced material
+The security policies might create a difference of opinion b/w client and provider
+Risk to property 
+Outsource providers may not follow clients standards and laws
+The providers may not document all the activities in proper format
+
+
+(c) (12%) How would you meet these IA challenges?  Explain why your approach to each of these IA challenges is effective.
+Ensure that a proper step by step risk management plan is in place. Conduct regular training related to risk management and mitigation. We need to identify Which threats represent the most danger to organizations’ sensitive information and how much would it cost to recover from attack? Analyzing and coming up with a plan against these, using a risk management plan would be an effective way to tackle the risk analysis and mitigation.
+Start from improving communication and discussing all the points of your cooperation. Then, make sure that your vendor uses special requirement-tracking software, where you can make changes and add new points even when the work is in progress. Finally, establish regular reporting, i.e. daily or weekly, depending on the complexity of your project. And, if you want “to feel the pulse” of your remote team as if it sits in the next room, choose the Dedicated Development Team outsourcing model for long term projects – you will be able to directly manage and control every employee.
+Choose an outsourcing team based not only on their technology skills but also their ability to apply useful tools and frameworks that accelerate development and increase work efficiency and productivity. Figure out what mockup tools, delivery process/methodology, tracking systems, and quality software metrics the vendor employs to make software, and discuss your expectations with the vendor.
+To meet the challenges of risks to the property, most important thing is to analyze which threats present danger to our assets.Then we can outline for each threat, what, where and other factors. This would be an effective way to mitigate these challenges.
+Make sure that the providers abide by the standard laws that are mandatory. If they do not, then set up a meeting to discuss this agenda and if the provider is willing to serve by the required standards and laws then make sure that they sign a contract stating these policies explicitly. This makes it effective since the client has to abide by the signed contract.
+To improve the effectivity and correctness in documentation,
+Develop a version control framework
+Eliminate time wasted searching for documents
+Develop an audit checklist that includes document location information
+
+
+Q4 )
+
+(a) (5%) What are the major security and privacy issues on online social networks?
+Easy targets of cyber attacks
+Security and privacy issues
+User management
+Data management
+Privacy management
+Virus / worms / malicious scripts
+Social engineering:
+
+(b) (10%) How would you address each of these IA issues?
+
+How to improve User Management?
+Proper digital identity management
+Watch for anonymous access
+Trust management
+Efficient user authentication and authorization
+Proper access control for dynamic user privileges
+Detection of malicious behaviors
+
+How to improve Data Management ?
+Efficient filtering for contents against laws or regulations
+Efficient data quality control
+A common way to control data quality in social networks is to use a reputation system. A user’s reputation is scored by other users’ feedbacks on the content he/she published. (e.g., seller rating system of eBay)
+Proper protection for copyrights and intellectual properties (e.g., digital watermarking)
+Proper protection for data integrity (e.g., digital signature)
+
+How to improve Privacy Management?
+User-centric privacy management
+User has control over
+Who can access my content
+How my personal information is collected
+What kinds of unintentional content will be generated
+Fundamental principles for privacy protection
+Notify users regarding collection, use and disclosure of personally identifiable information (PII)
+Provide users the choice to opt out or opt in regarding disclosure of PII to third parties
+Provide users the security to protect PII from unauthorized access
+Enforce applicable privacy policies, laws and regulations
+
+
+Q5
+
+a) (4%)  What is the IA policy of an organization?  How is it different from a procedure, guideline and regulation?
+
+High level statements of goals of procedures for information assurance Define what actions are required, and which are permitted
+Not guidelines
+Top level policies are often determined by management
+with significant input from IT personnel and represent corporate goals and principles
+Important to distribute policies to those responsible for following the policies and/or implement the policy enforcement
+Policy and enforcement mechanism
+Every IA policy statement should have an enforcement mechanism Critical to make employees aware of policies affecting their actions, and their violations may result in reprimand, suspension, or dismissal
+The fact that individual employees have been made aware of should be documented. Example, an employee signs a statement that the employee has attended a training session
+Enforcement mechanism may be technological (e.g., firewall), or a process (e.g., security audit)
+IA policies include security policies
+
+(b) (2%) Why are IA policies very important to an organization?
+ 
+Importance:
+Assure proper implementation of controls
+Dictate configuration of control mechanisms (e.g., firewall, and IDS) Guide product selection (e.g., laptops not permitted)
+Demonstrate management support
+Clearly define appropriate behavior of
+employees
+Can achieve higher level security than with the IA policies Avoid liability for company and management
+
+(c) (4%) What properties should an IA policy have
+Assure proper implementation of controls
+Dictate configuration of control mechanisms (e.g., firewall, and IDS)
+Guide product selection (e.g., laptops not permitted)
+Demonstrate management support
+Clearly define appropriate behavior of employees
+Can achieve higher level security than with the IA policies
+Avoid liability for company and management
+
+(d) (8%) If you generate an IA policy to cover a particular area, how would you proceed?
+
+Step 1: Secure strong management support
+Step 2: Gather key data
+ Relevant policies
+ Relevant statutes 
+ Research on what other organizations are doing
+Step 3: Define framework Determine overall goal of policy statement List areas to be covered Start with basic essentials and add additional areas
+as required
+Step 4: Structure effective review, approval, implementation, and enforcement procedures Determine who need to coordinate and get them involved early Know who are going to approve the policy And ensure they understand why the organization needs the proposed IA policy
+ Cross reference with HR policies
+Step 5: Perform risk assessment/analysis or audit.
+Step 6: Make sure each policy is written in the same style as existing policies.
+
+Q6
+
+Give the following definitions and explain their importance in terms of information assurance and security:
+(a) (5%) USA Patriot Act
+(b) (5%) HIPAA
+(c) (4%) The Orange Book
+
+Orange Book : standard reference for computer security 
+for DoD
+Also known as Trusted Computer System Evaluation Criteria
+Emphasis on confidentiality, especially protection 
+of government classified information
+ Limitations:
+ Focus on security needs of U.S. government and 
+military
+ Not address integrity, availability and others
+requirements critical to business applications
+
+(d) (4%) Economic Espionage Act
+
+Economic Espionage Act of 1996 (EEA)
+ Attempts to prevent trade secrets from 
+being illegally shared
+ Designed to prevent abuse of information 
+gained by an individual working in one 
+company and employed by another
+
+(e) (4%) Worm
+Worms: Program that propagates and reproduces itself as it goes over network  Capable of self-replicating and propagating without any human action. 
+-    The biggest danger is its capability to replicate itself on your system, rather than your computer sending out a single worm, it could send out thousands of copies of itself, creating a huge devastating effect.
+
+
+Q7
+Describe the general security certification and accreditation process for information systems handling confidential information under specific security requirements and operational environment.
+
+C & A process - Certification and accreditation process that addresses the security threats and vulnerabilities
+Phase 1: Definition: 
+Defines the mission, system funcs, requirements, info category, and classification
+Prepare system arch desc
+Identifies the C & A roles and responsibilities
+Drafts the C & A document SSAA (system security authorisation and agreement)
+	
+	Phase 2: Verification: 
+Life cycle management, security req validation procedures, vulnerability eval
+
+	Phase 3: Validation: 
+Security test and eval, penetration testing, compliance eval, system management, contingency plan, site accreditation, risk management, certification report for accreditation, declaration of accreditation generation, exception handling
+
+	Phase 4: Post Accreditation:
+Review config and security management of the system
+The changes of the system should be approved by DAA and CA.
+Find out whether the changed system will still follow the organization’s mission and arch
+If the changes are approved, the SSAA doc will be invalidated and the process will repeat again or else it will continue
+Risk management review - acceptable level of risk must be maintained.
+Compliance validation for any config changes to the system
+Maintain documentation, Monitor compliance
+
+
+Q8 
+(a) (2%) What is a COTS-based system?
+-> COTS is a commercial off the shelf system. COTS based systems are softwares built using such components which are ready made and help in increasing reliability, reducing costs and development time.
+(b) (10%) What are the risks of using COTS-based systems, and how will you mitigate these risks?
+-> Following defined are the risks of using COTS based systems:
+Difficult to verify security of COTS products
+COTS software is generally a more attractive target for attackers than customized code
+COTS software may be well known and widely available 
+More information on security vulnerabilities and viable attack patterns is shared 
+Attackers likely gain more benefits from attacking COTS products
+COTS vendors have very limited liability
+COTS components are often generic
+Involved DoD agencies: Defense Information Systems Agency (DISA), Joint Interoperability Test Command (JITC)
+
+Following measures can be implemented to mitigate the COTS based systems:
+Identify all components to be integrated into COTS-based systems, including both COTS and customized components.
+Understand business goals and context of the system 
+What sensitive information is processed and stored in the system?
+What security mechanisms are required to protect the sensitive information in the system?
+Understand how COTS and customized components are connected
+Implement access Control mechanisms to prevent unwanted users from attempting to access the system.
+Developers of COTS components generally assume that access is controlled in appropriate ways by distributors and/or users.
+Exploring the Security-related problems over the history of COTS components and finding patches for those Security-related problems.
+Engage with user community and security community
+Engage with the experts 
+Look for certifications
+
+
+
+
+Q9
+(14%) What are the major IA concerns in each type of the following information systems, and what properties of blockchain have been used to address the IA concerns in each of these information systems? Explain why.
+(a) Authentication systems
+(b) Electronic voting 
+(c) IoT
+(d) Edge computing
+-> 
+Q10
+What are the fundamental principles for providing privacy in social computing?
+User-centric privacy management.
+ User has control over
+Who can access my content
+ How my personal information is collected
+What kinds of unintentional content will be generated
+Fundamental principles for privacy protection
+ Notify users regarding collection, use and disclosure of personally identifiable information (PII)
+ Provide users the choice to opt out or opt in regarding disclosure of PII to third parties
+ Provide users the security to protect PII from unauthorized access
+ Enforce applicable privacy policies, laws and regulations
+
+Q11
+ (b) (10%)  Give an example of an IA policy, including an example IA policy statement, in the area of evidence collection and *presentation.
+
+
+Q14
+(a) (6%) What is the Patriot Act? What is its purpose? How does it impact
+other laws?
+(a) The U.S.A. Patriot Act
+-Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act of 2001 (Public Law 107-56), known as the USA PATRIOT Act or simply the Patriot Act. It was signed on October 26, 2001
+-The Act modified a wide range of existing laws to expand the authority of U.S. law enforcement agencies for the stated purpose of fighting terrorism in the United States and abroad
+Titles of patriot act:-
+Title I: Enhancing Domestic Security against Terrorism 
+Title II: Enhanced Surveillance Procedures 
+Title III: International money laundering abatement and anti-terrorist financing act of 2001
+Title IV: Protecting the border
+Title V: Removing obstacles to investigating terrorism
+Title VI: Providing aid to public safety officers and their families when the officers are injured or killed in line of duty
+Title VII: Increased information sharing for critical infrastructure protection
+Title VIII: Strengthening the criminal laws against terrorism
+Title IX: Improved intelligence
+Title X: Miscellaneous
+Key acts changed by The PATRIOT Act:
+1. Immigration and Nationality Act of 1952.
+give more law enforcement and investigative power to US Attorney General and to Immigration and Naturalization Service (INS).
+2. Bank Secrecy Act of 1970 (BSA)
+make it harder for money launderers to operate and easier for law enforcement and regulatory agencies to police money laundering operations
+3. Foreign Intelligence Surveillance Act of 1978 (FISA)
+allow government agencies to gather "foreign intelligence information" from both U.S. and non-U.S. citizens
+4. Electronic Communications Privacy Act of 1986 (ECPA)
+allow surveillance of public network communication, including emails and websites.
+5. Money Laundering Control Act of 1986 
+strengthen U.S. measures to prevent, detect and prosecute international money laundering and financing of terrorists
+
+(b) (5%) What is HIPAA? What is its purpose?
+-Regulates collection, storage, and transmission of sensitive personal health care information
+-Protects the confidentiality and security of healthcare data by establishing and enforcing standards and by standardizing electronic data interchange
+Five fundamental principles:-
+-Consumer control of medical information
+-Boundaries on use of medical information
+-Accountability for privacy of private information
+-Balance of public responsibility for use of medical information for the greater good measured against impact to the individual
+-Security of health information
+
+(C) (5%) What is the Freedom Information Act? What is its purpose?
+-Allows any person to request access to federal agency records or information not determined to be a matter of national security
+-Electronic Freedom of Information Act Amendments (E-FOIA)
+All government agencies must make “reading room” documents electronically available
+
+
+
+
+Q15
+(a) (5%) The concept of outsourcing is quite broad. Give five different types
+of outsourcing in the three categories of IT field involving hardware
+systems, software systems, and smart devices.
+
+
+(b) (6%) In developing IT products in the three major categories (hardware
+components, software packages, and smart devices), identify two different
+circumstances in each of these three categories, which has major advantages
+of using outsourcing. Give an example of the specific products in each
+category you have identified.
+(C) (9%) Identify the most serious security concern for outsourcing in each
+of the three categories of IT products in Part b. Identify what methods you
+can use to reduce the most serious security concern you have identified in
+outsourcing in each of the three categories of IT products.
+
+
+(a) Different types of outsourcing used in the IT field are:
+1. Offshore IT Outsourcing: It refers to the practice of systematically hiring or contracting a third-party provider headquartered in a completely different area in order to take advantage of cost savings. By aligning market products with a company's capability and technological superiority, offshoring creates cutting-edge industry solutions.
+2. Nearshore Outsourcing:  The nearest location or neighboring country is the nearshore outsourcing location, which is also a nearshore outsourcing model. Most businesses prefer nearshore outsourcing because it is convenient, and most developers speak the same language, which helps to reduce development costs.
+3. Onshore Outsourcing: Onsite outsourcing is a type of outsourcing in which the service provider sends a team of professionals and experts to the client's location. When compared to other types of outsourcing, onshoring reduces costs by having outsourced workers reside in the same country and time zone.
+4. Business Process Outsourcing: It is a type of outsourcing in which an organization hires a third-party service provider to handle one or more existing or new, complex, or simple business functions. The third-party performs both functions related to the company feature.
+5. IT Outsourcing: IT outsourcing services are a method of allowing a company to benefit from the best IT support without having to invest in hiring, training, or developing their own in-house solution. The most popular outsourcing services will be cybersecurity, custom software development, and app development. 
+(b) Hardware Components:
+1) Cost: The cost is the most significant benefit of outsourcing your company's computer department. The cost of hiring, training, and keeping a complete human resource staff for your firm might be substantial. Because you're paying a fee to a company that already has the appropriate processes in place, outsourcing these positions can save you a significant amount of money.
+ 
+2) Labour Focus: Outsourcing can save time in addition to money. Computer services necessitate a specialized skill set as well as the time to do the duties. Attempting to complete these duties if you and your team lack the time or abilities to do so may take longer than necessary. It may also divert time away from what you and your team excel at. For every half hour your salesman spends attempting to set up a computer/printer or installing new software, he may be losing a sale of your product or services. Eg:  copiers, application servers, network infrastructure, including the switches, routers, wireless access, racks, voice network infrastructure equipment, including PBX, handsets, telephones, voice mail system, voice over IP, volume and multifunction printers, and other information technology equipment
+ 
+Software Packages:
+1) Faster Time-to-Market: 
+In many businesses, keeping up with the competition requires the capacity to innovate swiftly without sacrificing quality. One of the most major benefits of software outsourcing is that it gives businesses more control over the speed at which software is developed.
+Organizations can leverage outside talent to scale development up or down as needed, rather than allowing limited resources to define schedules.
+ 
+2) Access to the Latest Tools & Tech: 
+It grants you access to technologies and platforms that you might not have access to on your own.
+On a practical level, this means you won't have to invest in a slew of new tools, new staff, or the training necessary to get your team up to speed whenever you want to leverage a new capacity.
+Eg: WhatsApp, Alibaba, Slack, GitHub, Unilever, Google, etc.
+ 
+Smart Devices:
+1) Effective Utilization of Assets:
+One of the key advantages of incorporating IoT into a business model is the ability to track and monitor assets more efficiently. You can also utilize these sensors to keep track of changing occurrences in transportation vehicles or at faraway places. As a result, IoT companies monitor the health of their equipment to guarantee that it is operating properly at all times.
+2) Increased Communication between Devices:
+IoT will be used in the future to connect local appliances such as lighting and air-conditioning equipment in smart homes and offices.
+These smart places will be able to alter temperature and lighting levels automatically in order to provide a tailored environment for room occupants.
+Eg: Smart TV, Smart AC, Google Home, Toddler Monitor (a connected children alert device), Wireless devices
+(c). The most serious security concerns are:
+1 – Inexperienced Staff: One of the dangers of outsourcing IT services is having inexperienced personnel manage your IT. When you hire an in-house IT team, you have the advantage of interviewing and obtaining references for each member of the team; however, this is only effective if you have the knowledge to verify new hires' experience.
+2. Hiddent costs: Another risk of outsourcing IT services is the presence of hidden costs. Some IT companies will charge a monthly fee for basic IT services but will add surcharges for support, additional software charges, consulting on any opportunity not covered by your contract, hardware maintenance fees, after-hours or holiday customer service, and other services. This is why it is critical to carefully read your contract before signing. Make sure to ask any references if they've ever encountered hidden fees and, if so, what they were for.
+3. Biased Software Decisions: While it may appear that software partnerships between outsourced IT companies and software companies are beneficial because they frequently result in a discount for the end-user (while providing a kickback to the outsourced IT services company), this is not always the case. Software partnerships frequently impair the company's ability to remain objective in selecting the best software solution for you.
+Methods to reduce security concerns:
+·       Clearly define the outsourcing scope in the contracts and establish a complete set of Service Level Agreements (SLA) with org charts, roles and responsibilities, tasks, and timelines.
+·       Address key issues related to staff management in the agreements such as hiring, training, conflict resolution, termination, and access monitoring.
+·       Audit against SLAs to ensure compliance with agreed-upon procedures. This is similar to any vendor insurance audit and should be done by the internal oversight team or an independent party separate from the party providing the services.
+·       Request oversight team sign-off when deploying tools, systems, or changes to make sure security is properly tested.
+·       Ensure all internal or service provider staff are subject to social engineering tests and mock incidents, ensuring their response is appropriate.
+
+
+
+Q16
+(a) (5%) What is an Information assurance policy (IA policy)? Why are IA
+policies very important to an organization which is information-intensive in
+the organization’s ?
+(b) (6%) What process would you use to establish a new IA policy to add
+the feature in the exist
+VN g IA policy in the confidentiality area which needs
+to protect certain specific information to be accessed with dynamic changes
+of authority?
+(c) (8%) Use the process you provided in part (b), add the feature to the
+existing IA policy in the confidentiality area to access the specific
+information items X and Y with the two different ways D1 and D2 pf
+dynamic changes of authorization, respectively.
+
+
+
+Q17
+(a) (6%) What is risk management in operating an information system handling confidential information? When should risk management be
+Conducted?
+Risk Management is preventing risks from becoming problems. The old philosophy is risk avoidance while the current philosophy is risk management. 
+Risk acceptance: tolerate those risks with low impact or rare occurrence, Risk acceptance can be established after the organization has done the following: Determine the level of each identified risk, Assess the probability of each type of potential attack, Estimate potential damage from each type of attacks. 
+Risk reduction (also called risk mitigation): Attempting to reduce the impact caused by the exploitation of vulnerability through planning and preparation. Incident Response Plan: Actions and organization take during incidents, Disaster Recovery Plan: Preparation for recovery if a disaster occurs; strategies to limit losses before and during a disaster; stepwise instructions to regain normalcy. Business Continuity Plan: Steps to ensure the continuation of overall business when the scale of a disaster exceeds the Disaster Recovery Plan’s ability to restore operations
+ 
+Risk transfer (to another entity): let others handle the risk
+Risk Management should be conducted when there is a threat or vulnerability in the Information System. A threat is a potential occurrence that can have an undesirable
+effect on the system assets or resources while A risk is a potentially negative event that may affect the successful operations of a system. 
+Risk management is preventing risk from becoming a problem. It is the process of identifying risk, assessing risk, and taking steps to reduce risk to an acceptable level. Security risk assessment should be a continuous activity. A comprehensive enterprise security risk assessment should be conducted at least once every two years to explore the risks associated with the organization’s information systems. An enterprise security risk assessment can only give a snapshot of the risks of the information systems at a particular point in time. For mission-critical information systems, it is highly recommended to conduct a security risk assessment more frequently, if not continuously.  
+ 
+ 
+
+(b) (8%) How should risk management be properly conducted?
+
+The following steps are involved in Risk Management:
+Step 1: System characterization
+Input: hardware, software, system interfaces, system mission, people, data information
+Output: system boundary, system functions, system, and data criticality and sensitivity
+Step 2: Threat identification
+Input: attack history, data from intelligence agencies or mass media
+Output: threat statement
+Step 3: Vulnerability identification
+Input: prior risk assessment reports, audit comments, security requirements, security test results
+Output: list of potential vulnerabilities
+Step 4: Control analysis
+ Input: current controls, planned controls
+ Output: evaluation results of current and planned controls
+Step 5: Likelihood determination
+ Input: threat-source motivation, threat capacity, nature of the vulnerability, current controls
+ Output: likelihood rating
+ Step 6: Impact analysis
+ Input: mission impact analysis, asset criticality assessment, data criticality, and sensitivity
+ Output: impact rating
+Step 7: Risk determination
+Input: the likelihood of threat exploitation, the magnitude of impact, adequacy of planned or current controls
+Output: risks and associated risk levels
+Step 8: Control recommendations and improvements
+Output: recommended controls and improvements
+Step 9: Results documentation
+Output: A set of documents, including risk identification, assessment, cost-effective evaluation, suggested control list.
+A well-documented risk management process at one phase, which is also the starting point for the analysis at the next phase
+Step 10: System monitoring:
+System and environment changed: Hardware expanded or upgraded, software updates, mission goal changed, etc.
+Performance: How many possible attacks have been
+prevented by controls; any failures or unwanted outcomes, etc.
+Restart the whole process from Step 1 again: Periodically as part of the system maintenance procedure
+When system configuration is changed, it may generate some
+new risks not covered during the last risk management process
+ When some controls fail to prevent the risk from turning
+into attacks
+
+
+
+Q18
+(a) (7%) Under what conditions machine learning is very useful to improve information assurance and security for an information system required to handle confidential information in many of its applications? Why?
+The ongoing tracking and correlation of millions of external and internal data points across an organization's infrastructure and users is required by the cyber threat landscape. It is just not possible to manage this volume of data with a small group of individuals.
+Machine learning succeeds in this area because it can discover patterns and forecast dangers in large data sets at a lightning pace. Cyber teams can quickly discover threats and isolate instances that require further human study by automating the analysis.
+Machine-learning can also be used to-
+- On a network, look for threats.
+- Keep individuals safe when they're available on the internet.
+- Endpoint malware protection is provided.
+- Malware detection in encrypted traffic
+ 
+(b) (7%) Under what conditions, machine learning is NOT very useful to improve information assurance and security of an information system required to handle confidential information in many of its applications? Why?
+Some of the conditions where Machine Learning is not useful are:
+1. Unable to protect from zero-day attacks:
+If you feed existing malware samples into a machine learning system, it can predict what future malware will look like in the abstract. As a result, your company will be safe from zero-day assaults, fileless attacks, and in-memory exploits. The problem is, though, that machine learning algorithms aren't very good at classifying advanced evasive malware. They're especially bad at detecting zero-day assaults, which aren't tied to earlier samples by definition. Given that zero-day assaults account for 80% of successful attacks, defending the company against cyberattacks offers a significant challenge.
+2. False Positive Problem-
+The warnings given by machine learning models don't provide much information, especially when a false positive is involved. The machine learning algorithms give you a chance that the warning is a dangerous file, but they don't necessarily tell you what was malicious about the app. As a result, determining whether or not the alert was a false positive consumes a significant amount of staff time that may be better spent addressing true issues.
+ 
+(c) (7%) If you have an information system required to handle confidential information in many of its applications, and you have found that using machine learning or blockchain of both is not very useful to improve information assurance and security of the information system, what technologies and strategies would you use to improve the information assurance and security of the system?  Why? 
+ 
+Information Security Technologies
+Creating an effective information security strategy requires adopting a variety of tools and technologies. Most strategies adopt some combination of the following technologies.
+Firewalls
+Firewalls are a layer of protection that you can apply to networks or applications. These tools enable you to filter traffic and report traffic data to monitoring and detection systems. Firewalls often use established lists of approved or unapproved traffic and policies determining the rate or volume of traffic allowed. 
+Security incident and event management (SIEM)
+SIEM solutions enable you to ingest and correlate information from across your systems. This aggregation of data enables teams to detect threats more effectively, more effectively manage alerts, and provide better context for investigations. SIEM solutions are also useful for logging events that occur in a system or reporting on events and performance. You can then use this information to prove compliance or to optimize configurations. 
+Data loss prevention (DLP)
+DLP strategies incorporate tools and practices that protect data from loss or modification. This includes categorizing data, backing up data, and monitoring how data is shared across and outside an organization. For example, you can use DLP solutions to scan outgoing emails to determine if sensitive information is being inappropriately shared. 
+Intrusion detection system (IDS)
+IDS solutions are tools for monitoring incoming traffic and detecting threats. These tools evaluate traffic and alert on any instances that appear suspicious or malicious. 
+Intrusion prevention system (IPS)
+IPS security solutions are similar to IDS solutions and the two are often used together. These solutions respond to traffic that is identified as suspicious or malicious, blocking requests or ending user sessions. You can use IPS solutions to manage your network traffic according to defined security policies. 
+User behavioral analytics (UBA)
+UBA solutions gather information on user activities and correlate those behaviors into a baseline. Solutions then use this baseline as a comparison against new behaviors to identify inconsistencies. The solution then flags these inconsistencies as potential threats. For example, you can use UBA solutions to monitor user activities and identify if a user begins exporting large amounts of data, indicating an insider threat.
+Blockchain cybersecurity
+Blockchain cybersecurity is a technology that relies on immutable transactional events. In blockchain technologies, distributed networks of users verify the authenticity of transactions and ensure that integrity is maintained. While these technologies are not yet widely used, some companies are beginning to incorporate blockchain into more solutions. 
+Endpoint detection and response (EDR)
+EDR cybersecurity solutions enable you to monitor endpoint activity, identify suspicious activity, and automatically respond to threats. These solutions are intended to improve the visibility of endpoint devices and can be used to prevent threats from entering your networks or information from leaving. EDR solutions rely on continuous endpoint data collection, detection engines, and event logging. 
+Cloud security posture management (CSPM)
+CSPM is a set of practices and technologies you can use to evaluate your cloud resources’ security. These technologies enable you to scan configurations, compare protections to benchmarks, and ensure that security policies are applied uniformly. Often, CSPM solutions provide recommendations or guidelines for remediation that you can use to improve your security posture.
+ 
+
+
+Q19.
+What are the purposes of the following laws:
+﻿﻿﻿Economic Espionage Act of 1996 (3%)
+(D) ﻿﻿Economic Espionage Act of 1996 and its purpose ? (3%)
+Attempts to prevent trade secrets from being illegally shared
+Designed to prevent abuse of information gained by an individual working in one company and employed by another
+ 
+The Economic Espionage Act of 1996 was signed into law by President Clinton. It makes the theft or misappropriation of trade secrets a criminal offense. It is unique in that it is the first federal law to broadly define and severely punish such misappropriation and theft.
+It is designed to prevent abuse of information gained by an individual working in one company and employed by another
+The EEA contains two separate provisions that criminalize the theft or misappropriation of trade secrets.
+The first provision, codified at 18 U.S.C. § 1831, is directed towards foreign economic espionage and requires that the theft of the trade secret be done to benefit a foreign government, instrumentality, or agent.
+The second provision makes criminal the more common commercial theft of trade secrets, regardless of who benefits. 18 U.S.C. § 1832.
+
+
+Q20. 
+What are the characteristics and how to defend against the following types of malware? Give example for each type of malware listed below.
+﻿﻿﻿Virus (6%)
+﻿﻿﻿Worm (6%)
+﻿﻿﻿Trojan horse (6%)
+
+Trojan Horse:
+A standalone malicious program that may give full control of an infected PC to another PC is called a Trojan horse. This is actually a code segment that tries to misuse its own environment. They somehow look attractive but on the other hand, they are really harmful and they actually serve as virus carriers. It may make copies of them, harm the host computer systems, or steal information.  The Trojan horse will actually do damage once installed or run on your computer but at first, a glance will appear to be useful software. Trojans are designed as they can cause serious damage by deleting files and destroying information on your system. Trojans allow confidential or personal information to be compromised by the system creating a backdoor on your computer that gives unauthorized users access to your system. Unlike, Trojans do not self-replicate or reproduce by infecting other files nor do they self-replicate which means Trojan horse viruses differ from other computer viruses and do not spread themselves.
+ 
+Virus:
+A computer virus is a type of malware that attaches to another program (like a document), which can replicate and spread after a person first runs it on their system. For instance, you could receive an email with a malicious attachment, open the file unknowingly, and then the computer virus runs on your computer. Viruses are harmful and can destroy data, slow down system resources, and log keystrokes. May exist on your computer, but it cannot infect your  computer unless you run or open the malicious program.  A virus cannot be spread without human action, such as  running an infected program, to keep it going. A computer virus works in much the same way:
+A computer virus requires a host program.
+A computer virus requires user action to transmit from one system to another.
+A computer virus attaches bits of its own malicious code to other files or replaces files outright with copies of itself.
+ 
+Worms:
+Worms are a type of malware similar to viruses. Like viruses, worms are self-replicating. The big difference is that worms can spread across systems on their own, whereas viruses need some sort of action from a user in order to initiate the infection. The biggest danger is its  capability to replicate itself on your system, rather than your  computer sending out a single worm, it could send out  thousands of copies of itself, creating a huge devastating  effect. Example:  ILOVEYOU: Came in an email with "I LOVE YOU" in  subject and contained an attachment that, when opened, would  result in the message being re-sent to everyone in the recipient's  Microsoft Outlook address book, and the loss of every JPEG,  MP3, and other files on recipient's hard disk. Reached 45 million users in a day.
+
+
+Q21. 
+﻿﻿﻿Why IA policies are important to an organization using information systems? (5%)
+﻿﻿﻿What is the process to establish a new IA policy for an organization? (8%)
+
+
+Q23. 
+﻿﻿﻿What are the major steps in the risk management process for an information system handling confidential information? (10%)
+Step 1: System characterization
+ Input: hardware, software, system interfaces, system mission, people, data information
+ Output: system boundary, system functions, system and data criticality and sensitivity
+ Step 2: Threat identification
+ Input: attack history, data from intelligence agencies or mass media
+ Output: threat statement
+Step 3: Vulnerability identification
+ Input: prior risk assessment reports, audit comments, security requirements, security test results
+ Output: list of potential vulnerabilities
+ Step 4: Control analysis
+ Input: current controls, planned controls
+ Output: evaluation results of current and planned controls
+Step 5: Likelihood determination
+ Input: threat-source motivation, threat capacity, nature of vulnerability, current controls
+ Output: likelihood rating
+ Step 6: Impact analysis
+ Input: mission impact analysis, asset criticality assessment, data criticality and
+sensitivity
+ Output: impact rating
+
+﻿﻿﻿Step 7: Risk determination
+ Input: likelihood of threat exploitation, magnitude of impact, adequacy of planned or current controls
+ Output: risks and associated risk levels
+ Step 8: Control recommendations and improvements
+ Output: recommended controls and improvements
+Step 9: Results documentation
+ Output: A set of documents, including risk identification, assessment, cost-
+effective evaluation, suggested control list.
+A well documented risk management process at one phase, which is also the starting point for the analysis at the next phase
+Step 10: System monitoring:
+ System and environment changed: 
+Hardware expanded or upgraded, software updates, mission goal changed,etc.
+ Performance: How many possible attacks have been prevented by controls; any failures or unwanted outcome, etc.
+
+Q24.
+What are the common types of controls in risk management to encounter various vulnerabilities using an information system? (5%)
+		 	 	 							
+Countermeasures for vulnerabilities
+Deterrent controls discourage violation and reduce the likelihood of deliberate attacks
+Sanctions are built into organizational policies, and punishments are imposed by legislation. 
+Preventive controls stop attempts to exploit vulnerabilities
+Segregation of duties, proper authorization, adequate documents, proper record keeping, physical controls 						
+Detective controls discover attacks and trigger preventive or corrective controls
+Firewall logs, inventory counts, input edit checks, checksums, message digests, intrusion detection
+Corrective controls reduce the effect of an attack
+Virus quarantine, firewall rule reconfiguration 					
+Recovery controls restore lost computer resources or capabilities from security violations
+Business continuity planning, disaster recovery plans, backups 
+
+Q25. What are the phases in the certification and accreditation process of information systems handling confidential information? Explain each phase of the process? (16%)
+ 
+a. Phase 1 - Definition:
+◼ Define mission, system functions, and requirements (especially security) ◼ Define information category and classification ◼ Prepare system architecture description ◼ Identify principal C&A roles & responsibilities ◼ Draft overall C&A document - (◼ System Security Authorization Agreement (SSAA) )◼ Agreement among all principals on methods for implementing security requirements -(◼ Approve SSAA )
+◼ Formal agreement among DAA, CA, IT system user representative, and program manager. ◼ Used throughout entire DITSCAP to guide actions, document decisions, specify Information Technology Security (ITSEC) requirements.
+◼ In addition, includes documentation of certification tailoring and level-of-effort, identification of potential solutions, and maintaining operational system security ◼ Return DITSCAP to initial phase for re-design.
+ 
+b. Phase 2 - Verification:
+◼ System architecture analysis ◼ Software design analysis ◼ Network connection rule compliance ◼ Integrity analysis
+◼ Life cycle management analysis ◼ Establishment of security requirement validation procedures ◼ Vulnerability evaluation
+ 
+c. Phase 3 - Validation:
+◼ Security test and evaluation ◼ Penetration testing (exploitation, insider/outsider) ◼ Compliance evaluation (requirements, integration) ◼ System management analysis ◼ Contingency plan evaluation ◼ Site accreditation survey
+◼ Risk management review ◼ Develop certification report and recommendation for accreditation ◼ Generate declaration of accreditation ◼ Exception handling
+d. Phase 4 - Post Accreditation:
+◼ Review configuration and security management
+◼ Follow system changes
+◼ Change requests to a system must be reviewed and approved by DAA and CA ◼ Determine if a system with the requested changes will continue to support organization’s mission and architecture ◼ If change requests are approved, they invalidate the SSAA requirement, and DITSCAP must go back to Phase I; otherwise, continue to operate as it is
+◼ Conduct risk management review
+◼ Assess if risk to system is being maintained at an acceptable level
+◼ Conduct compliance validation for any changes of configuration
+◼ Maintain documentation
+◼ Monitor compliance
+
+Q26
+Back response procedure and recovery planning 
+
+Reporting procedures
+ Internal: notify IA personnel, 
+management and related 
+departments
+ External: notify public agencies,
+media, suppliers and customers
+Determine immediate actions to be 
+taken after a disaster happens
+ Protection of personnel
+ Containment of the incident
+ Assessment of the effect
+ Decisions on optimum actions to be
+taken
+ Taking account of the power of public
+authorities
+High-level management must 
+decide what the organization should 
+do after a disruptive event happens.
+Possible choices:
+ Do nothing: loss is tolerable; 
+rarely happens and cost more to 
+correct it.
+Seek for insurance compensation: 
+provides financial support in the 
+event of loss, but does not provide 
+protection for the organization’s 
+reputation.
+High-level management must decide 
+what the organization should do after a 
+disruptive event happens. Possible
+choices: (cont.)
+ Loss mitigation: isolate the damage 
+and try to bring the system back 
+online as soon as possible.
+Bring off-site system online for 
+continuous operation.
+ Identify all possible choices, 
+including cost/benefit analysis and
+present recommendations to high-
+level management for approval.    
+
+Q27
+Blockchain application differences
+
+
+Q28 Types of malware and types of laws, and ethical issues (copied from slides)
+
+Types of malwares:
+Trap Doors (also called Back Doors): Holes in security of a system deliberately left in places by designers or maintainers for privileged accesses  Some operating systems have privileged accounts for use by field service technicians or maintenance programmers.  
+Logic Bombs: Code surreptitiously inserted in an application program or OS to perform some destructive or security-compromising activity whenever specified conditions are met
+Trojan horse: Malicious, security-breaking program that invites the user to run it, concealing its harmful or malicious activities.  
+Can be in the guise of various forms people find desirable, such as a freeware, game, movie, song.  
+Do not self-replicate nor propagate to other computers by itself, but it can be spread out through WWW, FTP, email, social networks and mobile phone.
+
+Virus: Program that infects one or more other programs by modifying them. Modification includes a copy of virus program, which can then infect other programs.
+Attaches itself to a program or file enabling it to spread from one computer to another, leaving infections as it travels
+Normally invisible to user  May exist on your computer, but it cannot infect your computer unless you run or open the malicious program. 
+A virus cannot be spread without human action, such as running an infected program, to keep it going.
+Worms: Program that propagates and reproduces itself as it goes over network  Capable of self-replicating and propagating without any human action. 
+-	The biggest danger is its capability to replicate itself on your system, rather than your computer sending out a single worm, it could send out thousands of copies of itself, creating a huge devastating effect.
+-	Example: ILOVEYOU: Came in an email with "I LOVE YOU" in subject and contained an attachment that, when opened, would result in the message being re-sent to everyone in the recipient's Microsoft Outlook address book, and the loss of every JPEG, MP3, and other files on recipient's hard disk. Reached 45 million users in a day.
+
+Botnet: a group of computers compromised by malware controlled remotely by an attacker to carry out various attacks against targeted computer systems  A botnet usually consists of tens of thousands of compromised computers
+
+
+Types of Laws:
+General Computer Crime Laws  
+U.S.A. Patriot Act  
+Privacy related Laws : 
+	-The Federal Privacy Act of 1974
+	- Electronic Communications Privacy Act of 1986
+	-Health Insurance Portability and Accountability Act (HIPAA)
+Export and Espionage Laws:
+	-Economic Espionage Act of 1996 (EEA)
+U.S. Copyright Laws  
+Freedom of Information Act: 
+	-Freedom of Information Act (FOIA)
+	- Electronic Freedom of Information Act (E -FOIA)
+
+Ethical Issues:
+1. Thou shalt not use a computer to harm other people. 
+2. Thou shalt not interfere with other people’s computer work. 
+3. Thou shalt not snoop around in other people’s computer files. 
+4. Thou shalt not use a computer to steal. 
+5. Thou shalt not use a computer to bear false witness. 
+6. Thou shalt not copy or use proprietary software for which you have not paid. 
+7. Thou shalt not use other people’s computer resources without authorization or proper compensation. 
+8. Thou shalt not appropriate other people’s intellectual output. 
+9. Thou shalt think about the social consequences of the program you are writing or the system you are designing. 
+10. Thou shalt always use a computer in ways that ensure consideration and respect for your fellow humans.

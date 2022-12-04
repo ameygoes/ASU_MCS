@@ -1,0 +1,115 @@
+AWS Fraud Detection using Machine LEarning for IDentity Theft:
+	Diagram: https://aws.amazon.com/fraud-detector/
+	https://aws.amazon.com/fraud-detector/faqs/
+	
+	Problem: Online Identity Theft: 
+	To define identity theft, the essential word here to consider is “identity.” Identity theft occurs when a criminal impersonates someone for the purpose of committing fraud, using the person’s private information such as a social security number or banking information.
+
+	This could involve a situation where a loan is established under the individual’s name, or a falsified tax return is filed with the IRS, or a credit card is opened without the individual’s knowledge. While fraud is the end result of identity theft, the big difference here is the implications upon the targeted individual.
+	
+	With identity theft, the damage to the individual is more severe. Unwinding the damage done by the fraudster can take months or years, and can take a huge toll on credit scores.
+	
+	
+	Whats the solution?
+
+	Amazon Fraud Detector is a fully managed service that makes it easy to identify potentially fraudulent online activities such as online payment fraud and fake account creation. 
+	
+	Amazon Fraud Detector uses machine learning (ML) and 20 years of fraud detection expertise from Amazon Web Services (AWS) and Amazon.com to automatically identify potential fraudulent activity in milliseconds.
+	
+	Some of more examples where Amazon Fraud Detection can be used:
+		New account fraud, within an account sign-up process
+		Online identity fraud 
+		Payment fraud for online orders
+		Guest checkout fraud
+		Loyalty account protection
+	
+	Amazon Fraud Detector automatically trains, tests, and deploys custom fraud detection machine learning models based on your historical fraud data, with no ML experience required. 
+	
+	For developers with more machine learning experience, you can add your own models to Amazon Fraud Detector using Amazon SageMaker.
+
+
+	How does Amazon Fraud Detector work?
+
+		1. First, you define the event you want to assess for fraud. 
+		2. Next, you upload your historical event dataset to Amazon Simple Storage Service (Amazon S3) and select a fraud detection model type, which specifies a combination of features and algorithms optimized to detect a specific form of fraud. 
+		3. The service then automatically trains, tests, and deploys a customized fraud detection model based on your unique information. 
+		4. During this process, you can boost your model performance with a series of models pre-trained on fraud patterns based on AWS and Amazon’s own fraud expertise. 
+		5. The model’s output is a score ranging from 0 to 1,000 that predicts the likelihood of fraud risk. At the final stage of the process, you set up decision logic (e.g. rules) to interpret your model’s score and assign outcomes such as passing or sending transactions to a human investigator for review.
+		6. After this framework is created, you can integrate the Amazon Fraud Detector API into you website’s transactional functions, such as account sign-up or order checkout. A
+		7. mazon Fraud Detector will process these activities in real time and provide fraud predictions in milliseconds to help you adjust your end-user experience.
+
+
+	Block Diagram: https://d1.awsstatic.com/fraud-detector/Product-Page-Diagram_Amazon-Fraud-Detector.1d59515b4eab27cdb9e253245682459c3c765b82.png
+	
+	<BLOCK DIAGRAM FOR MODEL BUILDING: SLIDE 34>
+	
+	
+PPT ALREADY MADE ON THE SAME TOPIC - https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Build_a_fraud_detection_system_with_Amazon_SageMaker_AIM359-R1.pdf
+
+
+	FEATURES: SLIDE 33
+	BLOCK DIAGRAM FOR MODEL BUILDING: SLIDE 34
+	
+https://docs.aws.amazon.com/frauddetector/latest/ug/security_iam_service-with-iam.html
+
+
+<no diadvantages were found>
+
+
+
+What is Provisioning and Deprovisioning User Access in IAM??
+	1. The process of creating, updating, and deleting user accounts in several applications and systems is known as user provisioning and deprovisioning. 
+	2. This access control procedure occasionally includes related data, like group memberships, user privileges, and even the groups themselves. 
+	3. Automated user provisioning, which is the systematic creation and administration of user data in relation to users' capacity to access resources like apps that are available in one or more systems, has become popular in many organizations. 
+	4. Accessible systems may be cloud-based, on-premises, or a combination of the two.
+
+Why Provisioning and Deprovisioning ?
+
+1. Automated user provisioning is one of the main features of many identity and access management (IAM) solutions. 
+Provisioning comes into play in the process called as the joiner/mover/leaver (JML) process which is when an employee joins an organization, moves to a different department or division, or exits a company. 
+
+Benifits:
+
+	1. Easily onboard and offboard employees: Create and maintain employees’ user attributes, such as usernames, roles, and profiles, and automatically assign access permissions and user accounts based on predefined roles and flexible entitlement rules.
+	
+	2. Streamline user management across applications: Automatically import users from Active Directory (AD), Lightweight Directory Access Protocol (LDAP), and other apps. Provisioning enables you to continuously propagate user profiles to ensure that your systems have the latest updates.
+	
+	3.Increase security and reduce cost: Use HR-Driven Identity Management (IM) to prevent former employees from having continued online access, to totally eliminate the possibility of zombie accounts sitting idle and at risk of being compromised.
+
+How does Provisioning and Deprovisioning work? 
+Provisioning:
+	1. In a fundamental automated provisioning procedure, users are added to apps in accordance with predetermined user roles. 
+	2. A user is immediately generated and given access permissions in the linked app once a role is assigned to that user. 
+	3. As shown in the diagram below, a newly created user is added to the Sales position and is subsequently given access to the apps related to that role after being deployed, in this case, the user who has been provisioned has access to G Suite, Office 365, and Salesforce.
+
+Deprovisioning:
+	1. You want a solution that makes it easy to modify the user's status when it's time to deprovision former employees from apps so that all of their accounts will be terminated or suspended in accordance with the configuration choices you set. 
+	2. Using our scenario in the diagram as an example, after deprovisioning the user, the employee would no longer be able to access the apps related to their function.
+	
+<Block Image> https://www.onelogin.com/images/patterns/text-image/auto-uam.svg
+
+
+
+
+
+How does Provisioning and Deprovisioning help companies become more secure?
+
+	1. Companies that don't provision and deprovision properly or fast run a significant risk of expensive security breaches. 
+	2. In the US, the average cost of a data breach is $148 per record and $7.91 million per breach. 
+	3. As a result, organizations that have had a big breach frequently underperform the market for years afterward, and 60% of small enterprises fail within six months of a successful attack.
+	4. By ensuring that employees only have access to the apps they require, automated user provisioning contributes to the security of your business. 
+	5. By guaranteeing that if an employee leaves, their access is instantly withdrawn for all associated applications, automated user deprovisioning aids in keeping your business secure. 
+	6. To lower security risk, all previous user sessions are also deleted.
+
+References -
+
+1. https://docs.aws.amazon.com/frauddetector/latest/ug/security_iam_service-with-iam.html
+2. https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Build_a_fraud_detection_system_with_Amazon_SageMaker_AIM359-R1.pdf
+3.https://d1.awsstatic.com/fraud-detector/Product-Page-Diagram_Amazon-Fraud-Detector.1d59515b4eab27cdb9e253245682459c3c765b82.png
+4. https://aws.amazon.com/fraud-detector/
+5. https://aws.amazon.com/fraud-detector/faqs/
+
+Why provisionig and Deprovisioning:
+6. https://www.onelogin.com/learn/what-is-user-provisioning-and-deprovisioning#:~:text=Automated%20user%20provisioning%20helps%20keep,removed%20for%20all%20connected%20applications.
+
+7. Image Credits https://www.onelogin.com/images/patterns/text-image/auto-uam.svg
