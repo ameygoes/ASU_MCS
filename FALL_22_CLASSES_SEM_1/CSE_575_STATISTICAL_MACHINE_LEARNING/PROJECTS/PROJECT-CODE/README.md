@@ -10,7 +10,7 @@ social media to help those with visual impairments. Working on this project gave
 which are further described in detail in this report. We, in this project, have achieved satisfactory BLEU scores by doing comparative
 study of different encoders that can be used for the model. Several datasets, including COCO,flicker30k, flicker8k, localized narratives, and
 SCICAP, are available for training the model; we investigated these datasets and decided to
-use flicker8k dataset for the project. The Code for the project can be found on GitHub.
+use flicker8k dataset for the project. The Code for the project can be found on [GitHub](https://github.com/ameygoes/ASU_MCS/tree/master/FALL_22_CLASSES_SEM_1/CSE_575_STATISTICAL_MACHINE_LEARNING/PROJECTS).
 
 
 
