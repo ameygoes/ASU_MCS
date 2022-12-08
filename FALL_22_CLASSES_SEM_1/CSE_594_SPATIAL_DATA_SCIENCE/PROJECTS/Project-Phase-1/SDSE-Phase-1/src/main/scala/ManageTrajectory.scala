@@ -41,6 +41,7 @@ object ManageTrajectory {
 
     val queryOutput = spark.sql(f"SELECT * FROM finalTrajectoryData WHERE ST_Contains(ST_PolygonFromEnvelope($latMin,$lonMin,$latMax,$lonMax),finalTrajectoryData.geometry)")
     val output = queryOutput.groupBy("trajectory_id","vehicle_id").agg(sort_array(collect_list("timestamp")).alias("timestamp"), collect_list("location").alias("location"))
+    output.show()
     output
 
   }
@@ -51,6 +52,7 @@ object ManageTrajectory {
     dfTrajectory.createOrReplaceTempView("finalTrajectoryData")
     val queryOutput = spark.sql(f"SELECT * FROM finalTrajectoryData WHERE ST_Contains(ST_PolygonFromEnvelope($latMin,$lonMin,$latMax,$lonMax),finalTrajectoryData.geometry) AND timestamp BETWEEN $timeMin AND $timeMax")
     val output = queryOutput.groupBy("trajectory_id","vehicle_id").agg(sort_array(collect_list("timestamp")).alias("timestamp"), collect_list("location").alias("location"))
+    output.show()
     output
   }
 
@@ -64,6 +66,7 @@ object ManageTrajectory {
     queryOutput.createOrReplaceTempView("tmp")
 
     val queryOutput2 = spark.sql(s"SELECT b.trajectory_id FROM tmp as a, tmp as b WHERE a.trajectory_id = $trajectoryId AND a.trajectory_id != b.trajectory_id ORDER BY (ST_DISTANCE(a.geom,b.geom)) LIMIT $neighbors")
+    queryOutput2.show()
     queryOutput2
   }
 
