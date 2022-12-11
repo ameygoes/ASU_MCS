@@ -1,7 +1,7 @@
 # ASU Masters of Computer Science Repository
 
 <!-- A bit about what this Repository: -->
-  - 🔭 Access this repository here: [LeetCode_Solutions_Java](https://github.com/ameygoes/ASU_MCS)
+  - 🔭 Access this repository here: [ASU Fall 2022 Classes](https://github.com/ameygoes/ASU_MCS)
 
   - 🌱 I’m currently learning **Python Full Stack, Java, Cloud(AWS & GCP), DataBases, Project Architecture and Design, Data Science, Data Analysis, Data Insights.**
 
