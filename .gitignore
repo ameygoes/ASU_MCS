@@ -11,6 +11,9 @@ __pycache__/
 *.idea
 .xml
 *.xml
+*.m4v
+*.mp4
+*.MP4
 
 # Distribution / packaging
 .Python
