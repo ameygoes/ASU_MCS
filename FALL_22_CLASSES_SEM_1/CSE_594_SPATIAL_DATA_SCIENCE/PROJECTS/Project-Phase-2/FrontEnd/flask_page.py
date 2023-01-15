@@ -50,7 +50,7 @@ def dataset():
             file.save(file_path)
 
             # GET RESPONSE FROM BACKEND TO SEE IF FILE GLOBAL VARIABLE WAS UPDATED AT BACKEND
-            loadDF = getLoadedDataFrame2(loadURL, file_path)
+            # loadDF = getLoadedDataFrame2(loadURL, file_path)
             # print(loadDF)
             writeToFile(load_dataset(file_path),os.path.join(app.config['INTERMEDIATE_FOLDER'], OUTPUT_FILE_NAME))
             return redirect('/')
