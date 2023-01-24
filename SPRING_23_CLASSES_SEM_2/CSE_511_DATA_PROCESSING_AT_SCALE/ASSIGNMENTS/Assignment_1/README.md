@@ -1,7 +1,7 @@
 
 # CSE 511 Data Processing at Scale - Assignment
 
-![alt text](./images/Spark.png)
+![alt text](./images/spark.png)
 
 This repository contains following Projects
 
