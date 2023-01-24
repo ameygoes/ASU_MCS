@@ -14,6 +14,9 @@ __pycache__/
 *.m4v
 *.mp4
 *.MP4
+*(2020).pdf
+*.csv
+.csv
 
 # Distribution / packaging
 .Python
