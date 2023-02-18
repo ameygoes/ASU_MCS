@@ -1,0 +1,12 @@
+\copy authors from '/mnt/c/Amey/ASU/ASU_MCS/SPRING_23_CLASSES_SEM_2/CSE_511_DATA_PROCESSING_AT_SCALE/ASSIGNMENTS/Assignment_1/Data/authors.csv' WITH DELIMITER ',' NULL '' CSV HEADER
+-- Time: 70939.201 ms (01:10.939)
+
+\copy comments from '/mnt/c/Amey/ASU/ASU_MCS/SPRING_23_CLASSES_SEM_2/CSE_511_DATA_PROCESSING_AT_SCALE/ASSIGNMENTS/Assignment_1/Data/comments.csv' WITH DELIMITER ',' NULL '' CSV HEADER
+
+-- Time: 227724.247 ms (03:47.724)
+
+\copy submissions from '/mnt/c/Amey/ASU/ASU_MCS/SPRING_23_CLASSES_SEM_2/CSE_511_DATA_PROCESSING_AT_SCALE/ASSIGNMENTS/Assignment_1/Data/submissions.csv' WITH DELIMITER ',' NULL '' CSV HEADER
+-- Time: 15641.326 ms (00:15.641)
+
+\copy subreddits from '/mnt/c/Amey/ASU/ASU_MCS/SPRING_23_CLASSES_SEM_2/CSE_511_DATA_PROCESSING_AT_SCALE/ASSIGNMENTS/Assignment_1/Data/subreddits.csv' WITH DELIMITER ',' NULL '' CSV HEADER
+-- Time: 17572.962 ms (00:17.573)

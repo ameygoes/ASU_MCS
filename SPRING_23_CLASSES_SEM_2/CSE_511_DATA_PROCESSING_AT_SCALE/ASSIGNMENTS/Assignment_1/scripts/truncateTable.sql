@@ -1,0 +1,4 @@
+TRUNCATE TABLE comments;
+TRUNCATE TABLE subreddits CASCADE;
+TRUNCATE TABLE submissions;
+TRUNCATE TABLE authors CASCADE;

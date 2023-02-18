@@ -1,9 +1,3 @@
-# ADD USER - THIS WILL BE REQUIRED TO RUN INITDB
-sudo adduser postgres
-# sudo chmod 777 -R /root/
-# sudo chown -R amey:amey /root
-su - postgres
-
 # STOP THE SERVICE BEFORE RUNNING ANYTHING
 sudo service postgresql stop
 

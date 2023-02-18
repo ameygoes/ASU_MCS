@@ -1,5 +1,17 @@
 import sbt.Keys.{libraryDependencies, scalaVersion, version}
 
+import sbt.Keys.{libraryDependencies, scalaVersion, version}
+
+lazy val root = (project in file(".")).
+  settings(
+    name := "CSE511",
+    version := "0.1.0",
+    scalaVersion := "2.11.11",
+    organization  := "org.datasyslab",
+    publishMavenStyle := true,
+    mainClass := Some("cse511.Main")
+  )
+
 lazy val root = (project in file(".")).
   settings(
     name := "Spatial-UDF",

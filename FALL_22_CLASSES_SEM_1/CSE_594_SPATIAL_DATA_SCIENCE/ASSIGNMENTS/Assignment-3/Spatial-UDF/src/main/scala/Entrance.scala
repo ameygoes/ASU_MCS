@@ -69,6 +69,7 @@ object Entrance extends App {
       }
     }
 
+
 //    THIS FUNCTIONS TAKES ARRAY OF STRING AS AN ARGUMENT
 //    RETURNS ARRAY OF CO-ORDINATES
   def Get_Array_of_Coordinates(pointsArray: Array[String]): Array[Coordinate] = {
@@ -185,7 +186,30 @@ object Entrance extends App {
     }
     )
 
-//    CALL TO PYTHON SCRIPT TO COMPARE FILES
+    // YOU NEED TO FILL IN THIS USER DEFINED FUNCTION
+    spark.udf.register("ST_Contains", (queryRectangle: String, pointString: String) => {
+
+    val coOrdinates = queryRectangle.split(',')
+    val xBL = coOrdinates.apply(0)
+    val yBL = coOrdinates.apply(1)
+    val xTR = coOrdinates.apply(2)
+    val yTR = coOrdinates.apply(3)
+    println(xBL, yBL, xTR, yTR)
+
+    val pointCords = pointString.split(',')
+    val xPC = pointCords.apply(0)
+    val yPC = pointCords.apply(1)
+    println(xPC, yPC)
+    if (xPC >= xBL && xPC <= xTR && yPC >= yBL && yPC <= yTR) {
+      true
+    }
+
+
+    false
+
+   })
+
+    //    CALL TO PYTHON SCRIPT TO COMPARE FILES
     CompareFiles()
 
     def CompareFiles(){
