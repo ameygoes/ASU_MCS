@@ -1,0 +1,7 @@
+{board(X,Y,N): X=1..9, Y=1..9, X1<=X, X<=X1+2, Y1<=Y, Y<=Y1+2} = 1 :- N=1..9, X1 = 3*(0..2)+1, Y1 = 3*(0..2)+1.
+
+:- board(X,Y,N), board(X,Y,N1), N1!=N.
+:- board(X,Y,N), board(X,Y1,N), Y1!=Y.
+:- board(X,Y,N), board(X1,Y,N), X1!=X.
+
+:- board(X,Y,N), board(X1,Y1,N1), greatersudoku(X,Y,X1,Y1), N <= N1.

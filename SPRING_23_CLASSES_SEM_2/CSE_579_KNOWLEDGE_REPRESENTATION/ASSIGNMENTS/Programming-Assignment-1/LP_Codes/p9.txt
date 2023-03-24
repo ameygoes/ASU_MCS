@@ -1,0 +1,2 @@
+{almostschu(X,1..k)} = 1 :- X=1..n.
+:- almostschu(X,S), almostschu(Y,S), almostschu(X+Y,S), X!=Y.

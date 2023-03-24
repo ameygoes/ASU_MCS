@@ -1,0 +1,4 @@
+{board(X,Y,N): X=1..16, Y=1..16, X1<=X, X<=X1+3, Y1<=Y, Y<=Y1+3} = 1 :- N=1..16, X1 = 4*(0..3)+1, Y1 = 4*(0..3)+1.
+:- board(X,Y,N), board(X,Y,N1), N1!=N.
+:- board(X,Y,N), board(X,Y1,N), Y1!=Y.
+:- board(X,Y,N), board(X1,Y,N), X1!=X.

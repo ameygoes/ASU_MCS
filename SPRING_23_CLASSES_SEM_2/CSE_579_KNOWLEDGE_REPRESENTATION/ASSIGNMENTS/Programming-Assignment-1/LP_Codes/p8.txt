@@ -1,0 +1,3 @@
+{board(X,Y)} :- X=1..n, Y=1..n.
+:- board(X,Y), board(X1,Y1), X!=X1, |X-X1|=|Y-Y1|.
+#maximize{1,X,Y: board(X,Y)}.
