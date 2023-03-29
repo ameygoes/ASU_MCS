@@ -1,0 +1,4 @@
+{queen(X,1..8)}=1 :- X=1..8.
+:- queen(X1, Y), queen(X2, Y), X1!=X2.
+:- queen(X1, Y1), queen(X2, Y2), X1!=X2, |X1-X2| = |Y1-Y2|.
+:- queen(X,Y), X=3..6, Y=3..6.

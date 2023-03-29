@@ -1,0 +1,3 @@
+{queen(X,1..n)}=1 :- X=1..n.
+:- queen(X1, Y), queen(X2, Y), X1!=X2.
+:- queen(X1, Y1), queen(X2, Y2), X1!=X2, |X1-X2| = |Y1-Y2|.
