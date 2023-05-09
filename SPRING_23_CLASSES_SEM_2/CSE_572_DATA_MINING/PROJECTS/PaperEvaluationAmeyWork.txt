@@ -1,0 +1,51 @@
+===========================================================================================================
+================================================ PAPER 5 ==================================================
+===========================================================================================================
+Citation:
+	M. Gu, X. Huang and Y. Fang, "Automatic Generation of Pulmonary Radiology Reports with Semantic Tags," 2019 IEEE 11th International Conference on Advanced Infocomm Technology (ICAIT), Jinan, China, 2019, pp. 162-167, doi: 10.1109/ICAIT.2019.8935910.
+
+Brief summary:
+
+	1. Proposes an automatic method for generating pulmonary radiology reports with semantic tags
+	2. Utilizes a deep learning approach with a sequence-to-sequence model
+	3. Demonstrates effectiveness of the method on a dataset of 4,000 radiology reports
+
+Strengths:
+
+	1. Provides a new method for automating the generation of radiology reports
+	2. Utilizes semantic tags to organize and structure the reports, which can be useful for further analysis
+	3. Achieves promising results on a relatively large dataset
+
+Limitations:
+
+	1. Limited validation of the method on other datasets, which may have different characteristics
+	2. May not fully replace the role of human radiologists in the report-generation process
+	3. The quality of the underlying data may determine how successful the semantic tags are and whether they are transferable to other domains.
+	
+
+===========================================================================================================
+================================================ PAPER 6 ==================================================
+===========================================================================================================
+
+Citation:
+	R. Ambati and C. Reddy Dudyala, "A Sequence-to-Sequence Model Approach for ImageCLEF 2018 Medical Domain Visual Question Answering," 2018 15th IEEE India Council International Conference (INDICON), Coimbatore, India, 2018, pp. 1-6, doi: 10.1109/INDICON45594.2018.8987108.
+
+Brief summary:
+	1. Proposed a sequence-to-sequence model approach for visual question answering in the medical domain
+	2. Used attention-based encoder-decoder architecture with a pre-trained VGG-19 image feature extractor and a word embedding layer 
+	3. Evaluated on the ImageCLEF 2018 dataset
+	4. Achieved competitive results compared to other state-of-the-art models
+
+Strengths:
+	1. Proposed approach outperformed several other baseline models
+	2. Implemented with a pre-trained image feature extractor to reduce training time
+	3. Approach can be extended to other image-based question answering tasks
+
+Limitations:
+	1. Limited evaluation on a single dataset (ImageCLEF 2018)
+	2. May not perform as well on other datasets with different characteristics or types of medical images
+	3. More fine-tuning is required to improve performance, particularly for long and complex questions
+
+
+
+

@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#"
+     xml:base="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasBase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasBase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasCrust -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasCrust"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSauce -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSauce"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSeasoning -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSeasoning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#AlfredoSauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#AlfredoSauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Sauce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#American -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#American">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Nationality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#AmericanPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#AmericanPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#American"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PepperoniTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#BasilSeasoning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#BasilSeasoning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Seasoning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ButterChickenTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ButterChickenTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CapsicumTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CapsicumTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseBurstCrust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseBurstCrust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Crust"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ChutneyFillCrust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ChutneyFillCrust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Crust"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Crust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Crust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#FourteenInchSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#FourteenInchSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#GarlicHerbCrust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#GarlicHerbCrust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Crust"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#HabaneroSauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#HabaneroSauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Sauce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Indian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Indian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Nationality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#IndianClassicPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#IndianClassicPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasBase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NaanBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasCrust"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#GarlicHerbCrust"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Indian"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSauce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TikkaMasalaSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSeasoning"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#BasilSeasoning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ButterChickenTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Italian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Italian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Nationality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ItalianFeastPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ItalianFeastPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasBase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasCrust"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#GarlicHerbCrust"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Italian"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSauce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#AlfredoSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSeasoning"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Seasoning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CapsicumTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatyVegetableTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MargheritaPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MargheritaPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasCrust"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#GarlicHerbCrust"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Italian"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatyPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatyPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatTopping"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatyVegetableTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatyVegetableTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatTopping"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NaanBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NaanBase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaBase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Nationality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Nationality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#OnionTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#OnionTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#OreganoSeasoning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#OreganoSeasoning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Seasoning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ParathaBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ParathaBase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaBase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ParmezanTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ParmezanTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PepperoniTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PepperoniTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Pizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Pizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasBase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaBase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Sauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Sauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Seasoning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Seasoning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#SixteenInchSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#SixteenInchSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaDomainConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#SohoPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#SohoPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#American"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CapsicumTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ParmezanTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TenInchSize -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TenInchSize">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ThymeSeasoning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ThymeSeasoning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Seasoning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TikkaMasalaSauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TikkaMasalaSauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Sauce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegFarmhousePizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegFarmhousePizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasBase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#NaanBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasCrust"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ChutneyFillCrust"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasNationality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Indian"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSauce"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TikkaMasalaSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSeasoning"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ThymeSeasoning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasSize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CapsicumTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#OnionTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegetableTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegetableTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ThisPizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ThisPizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#AmericanPizza"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#ButterChickenTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatyVegetableTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PepperoniTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CapsicumTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatyVegetableTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#OnionTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MeatTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#CheeseTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#MozzarellaTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#TomatoTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#VegetableTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#Pizza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaBase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/nnale/ontologies/2023/3/myPizza.owl#PizzaTopping"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
