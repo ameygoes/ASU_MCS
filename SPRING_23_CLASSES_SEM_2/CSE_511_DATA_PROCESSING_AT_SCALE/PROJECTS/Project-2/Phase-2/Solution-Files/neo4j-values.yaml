@@ -1,0 +1,11 @@
+neo4j:
+  password: "project2phase2"
+  name: "neo4j-standalone"
+  edition: "community"
+volumes:
+  data:
+    mode: defaultStorageClass
+env:
+  NEO4J_PLUGINS: '["graph-data-science"]'
+config:
+  dbms.security.procedures.unrestricted: "gds.*,apoc.*"

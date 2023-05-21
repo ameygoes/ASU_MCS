@@ -1,0 +1,17 @@
+{
+    "banner_background_image": "TEXT",
+    "created_utc": "INTEGER",
+    "description": "TEXT",
+    "display_name": "TEXT",
+    "header_img": "TEXT",
+    "hide_ads": "BOOLEAN",
+    "id": "TEXT",
+    "over18": "BOOLEAN",
+    "public_description": "TEXT",
+    "retrieved_utc": "INTEGER",
+    "name": "TEXT",
+    "subreddit_type": "TEXT",
+    "subscribers": "INTEGER",
+    "title": "TEXT",
+    "whitelist_status": "TEXT"
+}

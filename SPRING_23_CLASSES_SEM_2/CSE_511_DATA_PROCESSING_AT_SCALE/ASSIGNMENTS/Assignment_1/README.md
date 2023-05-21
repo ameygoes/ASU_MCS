@@ -1,7 +1,7 @@
 
 # CSE 511 Data Processing at Scale - Assignment
 
-![alt text](./images/spark.png)
+![alt text](https://github.com/ameygoes/ASU_MCS/blob/master/SPRING_23_CLASSES_SEM_2/CSE_511_DATA_PROCESSING_AT_SCALE/ASSIGNMENTS/Assignment_1/images/spark.png)
 
 This repository contains following Projects
 
