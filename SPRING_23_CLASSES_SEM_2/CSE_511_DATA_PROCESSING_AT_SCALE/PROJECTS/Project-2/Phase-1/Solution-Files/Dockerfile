@@ -24,7 +24,7 @@ RUN apt-get update && \
 RUN mkdir /cse511
 RUN apt-get update && apt-get install -y git
 
-ENV GITHUB_TOKEN=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
+ENV GITHUB_TOKEN=<YOUR TOKEN>
 ENV USERNAME=ameygoes
 RUN git clone https://oauth2:${GITHUB_TOKEN}@github.com/CSE511-SPRING-2023/abhilega-project-2.git  /cse511
 
