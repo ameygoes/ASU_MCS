@@ -1,0 +1,33 @@
+===================== PAPER TWO FIVE SHEETS IN SUMMARY ====================
+Certainly! The FdS methodology consists of five sheets, each serving a specific purpose in the design process. Here is a summary of each sheet:
+
+Sheet 1: Generate Ideas
+This sheet is used for brainstorming and exploring different ideas. It is divided into five sections: Ideas, Filter, Categorize, Combine & Refine, and Question. Users can sketch and jot down their initial ideas, filter and categorize them, combine and refine concepts, and ask questions to guide their thinking.
+
+Sheets 2, 3, and 4: Alternative Designs
+These three sheets are the main design sheets. Each sheet follows a 2-row by 3-row grid format. The five parts of each design sheet are:
+
+1. Information: Add meta-information such as title, author, date, task, and sheet number.
+2. Layout: Sketch the final interface, including buttons, GUI elements, visualizations, menus, etc.
+3. Operations: Describe the actions and results that occur when interface components are activated. This can include button clicks, data loading, visualization updates, etc.
+4. Focus/Parti: Identify and visually describe the central idea or core concept of the visualization. This can be a specific component of the interface or a novel interaction method.
+5. Discussion: Discuss the advantages and disadvantages of the design, considering factors such as task fit, suitability, potential and novelty, feasibility of implementation, scalability, extensibility, and clarity.
+
+Sheet 5: Realization
+This sheet represents the final design concept before delivery. It includes all the necessary information to outline the appearance, operation, and implementation details of the visualization. The parts of this sheet are the same as the previous design sheets (Information, Layout, Operations, Focus/Parti), with the addition of the Detail section. The Detail section can include algorithms, design patterns, data structures, mathematical calculations, measurements, dependencies, requirements, estimates of effort or cost, and any other relevant details.
+
+It is recommended to use a single large sheet of paper for each sheet, except for Sheet 1 where multiple pages can be used for brainstorming. A3 drawing paper is often preferred for its larger size and durability, but A4 printer paper can also be used. Various pens and pencils can be used for sketching and writing on the sheets.
+
+I hope this summary helps! Let me know if you have any further questions
+
+================== PAPER 2 in GIST =================
+
+Certainly! The paper discusses the Five Design Sheet (FdS) methodology, which is a strategy for managing the sketching of designs suitable for information visualization and facilitating the decision-making process. The FdS methodology consists of five sheets, each with five parts, and is focused on fostering divergent thinking, based on sketching, and enabling users to contemplate the goal of the tool to be designed, its operations, and interaction.
+
+The paper explains the different stages of the FdS methodology, starting with the ideation stage where users sketch as many ideas as possible. Then, they move on to the filtering stage where they remove duplicated or irrelevant ideas. The next stage is categorization, where users group similar ideas together. After that, they combine and refine the mini-ideas into bigger solutions. Finally, users question and reflect on the designs they have created, considering their effectiveness and suitability to the task.
+
+The paper also provides details on the layout of sheets 2, 3, and 4, which involve sketching the final interface, describing the operations and results, focusing on the core concept of the visualization, and discussing the advantages and disadvantages of the design. The final sheet, sheet 5, is the realization design, which contains enough information to outline what the final concept looks like, how users operate it, the main idea behind it, and additional details such as algorithms, design patterns, and dependencies.
+
+The paper emphasizes the use of a single sheet for each stage of the FdS methodology, as it brings together all the concepts in one place and allows for a comprehensive view of the design process. It also suggests using A3 drawing paper for more creative freedom and provides recommendations for pens and pencils to use.
+
+Overall, the paper presents the Five Design Sheet methodology as a complete solution for managing the sketching of designs suitable for information visualization, and it shares experiences and insights from its use over the past five years.
