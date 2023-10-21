@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework #3: D3 Joins - CSE 578 - Fall 2023</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+
+    <style type="text/css">
+        body {
+            width:100%
+        }
+        .my-button {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .parent-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1920px;
+            height: 1080px;
+            padding-left: 22%;
+            padding-top: 0px;
+        }
+
+        svg {
+            width: 1800px;
+            height: 900px;
+            background-color: white;
+            border: 1px solid #D3D3D3;
+            border-radius: 3px;
+        }
+
+        .myContainer {
+            width: 1920px;
+            /* max-width: 1700px; */
+            height: 900px;
+            max-height: 900px;
+        }
+
+        #beeSwarm_div {
+            width: 1920px;
+            height: 1070px;
+            padding: 10px;
+            padding-left: 3%;
+        }
+
+        .footer{
+            width: 1800px;
+            height:50;
+        }
+
+        .navbar {
+            width: 95%;
+        }
+
+        .navbar-form {
+            flex-grow: 1;
+            text-align: right;
+        }
+
+        /* Custom CSS for checkboxes */
+        .checkbox-dropdown .form-check {
+            margin-bottom: 5px;
+        }
+
+        .tooltip {
+            position: absolute;
+            text-align: left;
+            color: white;
+            white-space: normal;
+            padding: 6px;
+            font-size: 14px;
+            background: rgb(96,125,139);
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 2px;
+            pointer-events: none;
+            cursor: none;
+        }
+
+        .video-container {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .large-button {
+            font-size: 24px; /* Adjust the font size to control the button's size */
+            padding: 10px 20px; /* Adjust padding to control the button's width and height */
+        }
+
+        .svg-border {
+            border: 2px solid #000; /* Customize border width and color */
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="parent-container">
+    <div class="myContainer">
+        <video controls autoplay loop>
+            <source src="/data/title2.mp4" type="video/mp4">
+            Amey Bhilegaonkar: abhilega@asu.edu
+        </video>
+        <div class="centered-content">
+            <div id="beeSwarm_div" class="border border-dark rounded bg-light shadow-sm">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <button class="nav-link dropdown-toggle my-button btn btn-outline-success my-2 my-sm-0 large-button" href="#" id="navbarDropdownXAxis" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    X-axis
+                                </button>
+                                <div class="dropdown-menu" id="xAxis" aria-labelledby="navbarDropdownXAxis">
+                                    <a class="dropdown-item" href="#">Birth Rate</a>
+                                    <a class="dropdown-item" href="#">Death Rate</a>
+                                    <a class="dropdown-item" href="#">Fertility Rate</a>
+                                    <a class="dropdown-item" href="#">Life Expectancy at Birth, Female</a>
+                                    <a class="dropdown-item" href="#">Life Expectancy at Birth, Male</a>
+                                    <a class="dropdown-item" href="#">Life Expectancy at Birth, Total</a>
+                                    <a class="dropdown-item" href="#">Population Growth</a>
+                                    <a class="dropdown-item" href="#">Total Population</a>
+                                    <a class="dropdown-item" href="#">Cellular Subscriptions</a>
+                                    <a class="dropdown-item" href="#">Telephone Lines</a>
+                                    <a class="dropdown-item" href="#">Agricultural Land</a>
+                                    <a class="dropdown-item" href="#">Arable Land</a>
+                                    <a class="dropdown-item" href="#">Land Area</a>
+                                    <a class="dropdown-item" href="#">Rural Population</a>
+                                    <a class="dropdown-item" href="#">Rural Population Growth</a>
+                                    <a class="dropdown-item" href="#">Surface Area</a>
+                                    <a class="dropdown-item" href="#">Population Density</a>
+                                    <a class="dropdown-item" href="#">Urban Population Percent Growth</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button class="nav-link dropdown-toggle my-button btn btn-outline-success my-2 my-sm-0 large-button" href="#" id="navbarDropdownSize" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Size
+                                </button>
+                                <div class="dropdown-menu" id="circleSize" aria-labelledby="navbarDropdownSize">
+                                    <a class="dropdown-item" href="#">Birth Rate</a>
+                                    <a class="dropdown-item" href="#">Death Rate</a>
+                                    <a class="dropdown-item" href="#">Fertility Rate</a>
+                                    <a class="dropdown-item" href="#">Life Expectancy at Birth, Female</a>
+                                    <a class="dropdown-item" href="#">Life Expectancy at Birth, Male</a>
+                                    <a class="dropdown-item" href="#">Life Expectancy at Birth, Total</a>
+                                    <a class="dropdown-item" href="#">Population Growth</a>
+                                    <a class="dropdown-item" href="#">Total Population</a>
+                                    <a class="dropdown-item" href="#">Cellular Subscriptions</a>
+                                    <a class="dropdown-item" href="#">Telephone Lines</a>
+                                    <a class="dropdown-item" href="#">Agricultural Land</a>
+                                    <a class="dropdown-item" href="#">Arable Land</a>
+                                    <a class="dropdown-item" href="#">Land Area</a>
+                                    <a class="dropdown-item" href="#">Rural Population</a>
+                                    <a class="dropdown-item" href="#">Rural Population Growth</a>
+                                    <a class="dropdown-item" href="#">Surface Area</a>
+                                    <a class="dropdown-item" href="#">Population Density</a>
+                                    <a class="dropdown-item" href="#">Urban Population Percent Growth</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button class="nav-link dropdown-toggle my-button btn btn-outline-success my-2 my-sm-0 large-button" href="#" id="navbarDropdownRegion" role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Region
+                                </button>
+                                <div class="dropdown-menu checkbox-dropdown" id="region_dropdown" aria-labelledby="navbarDropdownRegion">
+
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="Region1" id="selectAll" checked>
+                                        <label class="form-check-label" for="selectAll">
+                                            Select All
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="South Asia" id="South Asia" checked>
+                                        <label class="form-check-label" for="South Asia">
+                                            South Asia
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="Europe & Central Asia" id="Europe & Central Asia" checked>
+                                        <label class="form-check-label" for="Europe & Central Asia">
+                                            Europe & Central Asia
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="Middle East & North Africa" id="Middle East & North Africa" checked>
+                                        <label class="form-check-label" for="Middle East & North Africa">
+                                            Middle East & North Africa
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="Sub-Saharan Africa" id="Sub-Saharan Africa" checked>
+                                        <label class="form-check-label" for="Sub-Saharan Africa">
+                                            Sub-Saharan Africa
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="Latin America & Caribbean" id="Latin America & Caribbean" checked>
+                                        <label class="form-check-label" for="Latin America & Caribbean">
+                                            Latin America & Caribbean
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="East Asia & Pacific" id="East Asia & Pacific" checked>
+                                        <label class="form-check-label" for="East Asia & Pacific">
+                                            East Asia & Pacific
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input region" type="checkbox" value="North America" id="North America" checked>
+                                        <label class="form-check-label" for="North America">
+                                            North America
+                                        </label>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="d-flex form-inline navbar-form ml-auto justify-content-end">
+                            <div class="justify-content-between">
+                            <label for="yearSelect" class="large-button">Select Year:</label>
+                            <select id="yearSelect" class="btn btn-outline-success my-2 my-sm-0 large-button">
+                            </select>
+
+                            <button id="animateButton" class="btn btn-outline-success my-2 my-sm-0 my-button large-button" type="submit">Play</button>
+                            
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+                
+                <div id="beeswarm_svg" class="graph centered">
+                </div>
+                <div>
+                    <footer class="bg-dark text-center text-white footer">
+                        <div class="container p-4 pb-0">
+                            <section class="mb-4">
+                                <a class="btn btn-outline-light btn-floating mb-2" href="https://www.instagram.com/ameygoes/" role="button"><i class="fab fa-instagram"></i></a>
+
+                                <a class="btn btn-outline-light btn-floating mb-2" href="https://www.linkedin.com/in/amey-bhilegaonkar" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                                <a class="btn btn-outline-light btn-floating mb-2" href="https://github.com/ameygoes" role="button"><i class="fab fa-github"></i></a>
+
+                                <a class="btn btn-outline-light btn-floating mb-2" href="mailto:amey.bhilegaonkar@asu.edu" role="button"><i class="fab fa-envelope"></i></a>
+                            </section>
+                        </div>
+                  </footer>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap JS and jQuery (for the navbar toggler) -->
+<script src="abhilega.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
