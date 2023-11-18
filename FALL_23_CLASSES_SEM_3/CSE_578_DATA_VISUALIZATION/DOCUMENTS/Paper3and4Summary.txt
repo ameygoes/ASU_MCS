@@ -1,0 +1,33 @@
+=========================================================================
+========================= PAPER 1 SUMMARY ===============================
+=========================================================================
+The paper discusses the concept of visualization rhetoric and its importance in designing narrative visualizations. The authors argue that understanding the rhetorical techniques used in visualizations can help designers create more engaging and meaningful visualizations. They also highlight the interaction between these techniques, the characteristics of the visualization interaction, end-users' knowledge, and the socio-cultural context.
+
+The paper begins by defining important terms related to rhetoric and contextualizing them in the field of data visualization. It also discusses the relationship between rhetoric and other fields such as semiotics, decision science, and political theory. The authors then outline various visualization rhetoric techniques based on a qualitative analysis of narrative visualizations. These techniques are categorized into clusters that exemplify different rhetorical operations, such as information access rhetoric, provenance rhetoric, mapping rhetoric, and procedural rhetoric.
+
+The paper also presents case studies to demonstrate how an understanding of visualization rhetoric can provide insight for the analysis and design of narrative visualizations. It discusses the themes emerging from their analyses and highlights areas for future study.
+
+1. Information Access Rhetoric: This category includes techniques that limit the amount of information presented in a visualization. For example, omission techniques involve excluding distracting or irrelevant information. Visual noise can also be used to simplify complex ideas by adding subtle or obvious noise to the visualization.
+
+2. Provenance Rhetoric: This category focuses on providing background information about the data or visualization. For instance, journalists or designers may explicitly state their presence in the visualization, acknowledging their role and potential biases. This transparency can strengthen the credibility of the visualization.
+
+3. Mapping Rhetoric: This category involves mapping elements of the visualization to non-explicit concepts. For example, in the NYT visualization "A Peek Into Netflix Queues," the rental lists and movie rank variables are mapped to spatial position and color, implying an overall message organized around geographic patterns in top rentals.
+
+4. Procedural Rhetoric: This category refers to techniques that constrain interaction over time. For instance, the design of a visualization may guide the user's attention and control the order in which information is presented, influencing their interpretation.
+
+5. Linguistic Rhetoric: This category includes techniques that cluster based on an origin in linguistic rhetoric. For example, the use of labels or annotations in a visualization can add information or emphasize certain aspects.
+
+Overall, the paper aims to provide designers with a set of techniques for designing engaging narrative visualizations and to provide a vocabulary for analyzing the underlying rhetorical functions of design strategies. It also emphasizes the importance of considering the interaction between visualizations, user mental models, and external representations in the interpretation of visualizations
+
+=========================================================================
+========================= PAPER 2 SUMMARY ===============================
+=========================================================================
+This paper explores the impact of data visualization on diverse audiences, particularly in underrepresented populations and rural areas. The authors discuss the importance of understanding biases in data visualization and how they can manifest differently in various contexts. They also highlight the role of data visualization in the attention economy and how personal and familiar visualizations can benefit diverse web audiences.
+
+The paper emphasizes the challenges faced by rural populations, such as technological barriers and the digital divide. Limited access to devices and unreliable internet connections can hinder the effectiveness of interactive data visualization tools. Additionally, rural environments introduce constraints that make it challenging to overcome visualization literacy, with limited resources and geographic isolation affecting adult literacy programs.
+
+The study conducted interviews with participants who ranked different data visualizations and provided follow-up questions to understand their reasoning. The researchers revealed the sources of the graphs and asked participants if they would like to change their rankings based on this information. The analysis of the interviews followed a grounded theory approach, generating codes and themes to capture participant responses.
+
+The findings show that participants gravitated towards simple and clear visual encodings, with bar graphs and line graphs being highly ranked. Clarity was often associated with the ability to quickly extract the gist of the data, rather than a deep understanding of the information. Infographics yielded the most polarized responses, indicating a need for further exploration of their effectiveness.
+
+Overall, this paper highlights the importance of considering biases, understanding the challenges faced by underrepresented populations and rural areas, and designing data visualizations that are clear and relatable to diverse audiences. 
